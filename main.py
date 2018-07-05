@@ -21,6 +21,20 @@ PASSWORD2            = "acf5f498c914e8fea7dec29219a1e4fc"
 DB_NAME2             = "dev_tuannn"
 # QUERY_GETDB2         = "Select * from addresses limit 10"
 
+CONFIG_DB_FULL = {
+    'user': 'root',
+    'password': '',
+    'host': 'localhost',
+    'database': 'ghtk',
+}
+
+CONFIG_DB_DEVTUAN = {
+    'user': 'linhph',
+    'password': 'acf5f498c914e8fea7dec29219a1e4fc',
+    'host': '10.6.0.1',
+    'database': 'dev_tuannn',
+}
+
 # FILE MAPPING PROVINCE:
 MAP_PROVINCE        = "map_province.txt"
 
@@ -28,22 +42,40 @@ MAP_PROVINCE        = "map_province.txt"
 def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
-def connect_db(HOST, USER, PASSWD, DB,  QR):
+def connect_db(config_db,  query):
     # Connect database:
-    cnx = mysql.connector.connect(host=HOST, user=USER, passwd=PASSWD, db=DB)
+    cnx = mysql.connector.connect(**config_db)
 
     cursor = cnx.cursor()
-    cursor.execute(QR)
+    cursor.execute(query)
     result = cursor.fetchall()
+    cnx.close()
     return result
 
 
 if __name__ == '__main__':
 
+    mapping_result = []
     pairs = [l.split() for l in open(MAP_PROVINCE).readlines()]
     queue = deque(pairs)
     while (len(queue) != 0):
-        print(queue.popleft())
+        pair_address = queue.popleft()
+        mapping_result.append(pair_address)
+        
+        query1 = "Select id, name From address_service Where parent_id =" + pair_address[0]
+        address_1 = connect_db(CONFIG_DB_FULL, query1)
+        query2 = "Select id, name From addresses Where parent_id =" + pair_address[2]
+        address_2 = connect_db(CONFIG_DB_DEVTUAN, query2)
+
+        for add_1 in address_1:
+            for add_2 in address_2:
+                if(similar(add_1[1], add_2[1]) > 0.8):
+                    new_pair = [add_1[0], add_2[0]]
+                    queue.append(new_pair)
+    
+    for pair_add in mapping_result:
+        print(pair_add)
+        
     # queue.append("Terry")
     # queue.popleft()
 
@@ -61,4 +93,5 @@ if __name__ == '__main__':
 
     # for row in add_tuandb:
     #     print row
+
 
