@@ -113,7 +113,7 @@ def main():
                 continue
             max_simillar = max(temp_pairs.keys())
             new_pair = temp_pairs[max_simillar]
-            print("new pair:", new_pair)
+            # print("new pair:", new_pair)
             append_pair = [new_pair[0], new_pair[1]]
             queue.append(append_pair)
             mapping_result.append([new_pair[0], new_pair[1], new_pair[2], new_pair[3], new_pair[4], new_pair[5], new_pair[6], new_pair[7], round(max_simillar,3)] )
