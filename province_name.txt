@@ -62,3 +62,4 @@ Id1,Name GHTK, Id2, Name dev_Tuan, Parent_id 1, Simillar
 40,Vĩnh Long,868,Vĩnh Long,0,1
 31,Vĩnh Phúc,827,Vĩnh Phúc,0,1
 56,Yên Bái,132,Yên Bái,0,1
+

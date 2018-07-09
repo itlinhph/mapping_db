@@ -9,23 +9,16 @@ import time
 from difflib import SequenceMatcher
 from collections import deque
 
-CONFIG_DB_FULL = {
+CONFIG_DB = {
     'user': 'root',
     'password': '',
     'host': 'localhost',
     'database': 'ghtk',
 }
 
-CONFIG_DB_DEVTUAN = {
-    'user': 'linhph',
-    'password': 'acf5f498c914e8fea7dec29219a1e4fc',
-    'host': '10.6.0.1',
-    'database': 'dev_tuannn',
-}
-
 # FILE MAPPING PROVINCE:
 PAIR_PROVINCE       = "province_pair.txt"
-MAP_ALL_PROVINCE    = "province_name.txt"
+MAP_ALL_PROVINCE    = "province_name.csv"
 FILE_MAP_OUT        = "mapping_output.csv"
 
 PATTERNS = {
@@ -65,18 +58,17 @@ def addr_similar(a, b):
     b = convert_non_accented(b.lower())
     return SequenceMatcher(None, a, b).ratio()
 
-def connect_db(config_db,  query):
-    # Connect database:
-    cnx = mysql.connector.connect(**config_db)
-
+def connect_db(cnx,config_db,  query):
+    
     cursor = cnx.cursor()
     cursor.execute(query)
     result = cursor.fetchall()
-    cnx.close()
+    
     return result
 
 
 def main():
+    cnx = mysql.connector.connect(**CONFIG_DB)
     mapping_result = []
     for line in open(MAP_ALL_PROVINCE).readlines():
         line = line[:-1].split(",")
@@ -86,36 +78,52 @@ def main():
     queue = deque(pairs)
     while (len(queue) != 0):
         pair_address = queue.popleft()
-        
-        query1 = "Select id, _name From address_service Where parent_id =" + str(pair_address[0])
-        address_1 = connect_db(CONFIG_DB_FULL, query1)
+
+        # address_service_id, name, prefix, parent_name, _type
+        query1 = """
+            SELECT ad.id, ad._name, ad._prefix, ad1._name as parent_name, ad._type  
+            FROM ghtk.address_service ad 
+            LEFT JOIN ghtk.address_service ad1 on ad.parent_id = ad1.id
+            WHERE ad.parent_id =""" + str(pair_address[1])  # BANG NAY CHUAN HON, 46767 ROWS
+        address_1 = connect_db(cnx, CONFIG_DB, query1)
+        # print("Q1", query1)
         if not address_1:
             continue
-        query2 = "Select id, name From addresses Where parent_id =" + str(pair_address[1])
-        address_2 = connect_db(CONFIG_DB_DEVTUAN, query2)
+        
+        # Address_id, address_name, address_type, address_parent
+        query2 = """
+            SELECT ad.id, ad.name, ad.type, ad1.name as parent_name  
+            FROM ghtk.addresses ad 
+            LEFT JOIN ghtk.addresses ad1 on ad.parent_id = ad1.id
+            WHERE ad.parent_id =""" + str(pair_address[0])   # BANG NAY CUA GHTK, 23484 ROWS
+        address_2 = connect_db(cnx,CONFIG_DB, query2)
+        # print("Q2", query2)
         if not address_2:
             continue
         for add_1 in address_1:
             temp_pairs = {}
             for add_2 in address_2:
+                if (add_1[4] != add_2[2]):
+                    continue
                 simillar = addr_similar(add_1[1], add_2[1])
                 if( simillar > 0.7):
-                    temp_pair = [add_1[0], add_1[1], add_2[0], add_2[1] ]
+                    temp_pair = [add_2[0], add_1[0], add_2[1], add_1[1], add_2[2], add_1[2], add_2[3], add_1[3] ]
                     temp_pairs[simillar] = temp_pair
             if not temp_pairs:
                 continue
             max_simillar = max(temp_pairs.keys())
             new_pair = temp_pairs[max_simillar]
-            # print("new pair:", new_pair)
-            append_pair = [new_pair[0], new_pair[2]]
+            print("new pair:", new_pair)
+            append_pair = [new_pair[0], new_pair[1]]
             queue.append(append_pair)
-            mapping_result.append([new_pair[0], new_pair[1], new_pair[2], new_pair[3], pair_address[0], round(max_simillar,3)] )
+            mapping_result.append([new_pair[0], new_pair[1], new_pair[2], new_pair[3], new_pair[4], new_pair[5], new_pair[6], new_pair[7], round(max_simillar,3)] )
     print("Total: ", len(mapping_result))
     with open(FILE_MAP_OUT, 'w') as csvFile:
         writer = csv.writer(csvFile)
         writer.writerows(mapping_result)
 
     csvFile.close()
+    cnx.close()
         
 
 start_time = time.time()
