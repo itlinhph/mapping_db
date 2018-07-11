@@ -9,15 +9,16 @@ import time
 from difflib import SequenceMatcher
 from collections import deque
 
+
 CONFIG_DB = {
-    'user': 'root',
+    'user': 'linhph',
     'password': '',
     'host': 'localhost',
     'database': 'ghtk',
 }
 
 # FILE MAPPING PROVINCE:
-PAIR_PROVINCE       = "province_pair.txt"
+PAIR_PROVINCE       = "province_pair.csv"
 MAP_ALL_PROVINCE    = "province_name.csv"
 FILE_MAP_OUT        = "mapping_output.csv"
 
@@ -66,6 +67,17 @@ def connect_db(cnx,config_db,  query):
     
     return result
 
+def get_wrong_address():
+    full_address = [line.rstrip('\n') for line in open('add_full.csv')]
+    filter_address = [line.rstrip('\n') for line in open('add_filter.csv')]
+    # print(filter_address)
+    print(type(full_address), type(filter_address))
+    wrong_addr = list(set(full_address) - set(filter_address))
+    print(wrong_addr)
+    with open('wrong_addr.csv', 'w') as filehandle:
+        for listitem in wrong_addr:
+            filehandle.write('%s\n' % listitem)
+
 
 def main():
     cnx = mysql.connector.connect(**CONFIG_DB)
@@ -75,10 +87,14 @@ def main():
         mapping_result.append(line)
 
     pairs = [l.split() for l in open(PAIR_PROVINCE).readlines()]
+    wrong_addr
     queue = deque(pairs)
     while (len(queue) != 0):
         pair_address = queue.popleft()
-
+        # print(pair_address)
+        if(pair_address[2] in [2,4,5,6]):
+            print(pair_address[2])
+            continue
         # address_service_id, name, prefix, parent_name, _type
         query1 = """
             SELECT ad.id, ad._name, ad._prefix, ad1._name as parent_name, ad._type  
@@ -88,6 +104,7 @@ def main():
         address_1 = connect_db(cnx, CONFIG_DB, query1)
         # print("Q1", query1)
         if not address_1:
+            print("continue add1")
             continue
         
         # Address_id, address_name, address_type, address_parent
@@ -99,10 +116,11 @@ def main():
         address_2 = connect_db(cnx,CONFIG_DB, query2)
         # print("Q2", query2)
         if not address_2:
+            print("continue add2")
             continue
-        for add_1 in address_1:
+        for add_2 in address_2:
             temp_pairs = {}
-            for add_2 in address_2:
+            for add_1 in address_1:
                 if (add_1[4] != add_2[2]):
                     continue
                 simillar = addr_similar(add_1[1], add_2[1])
@@ -113,10 +131,12 @@ def main():
                 continue
             max_simillar = max(temp_pairs.keys())
             new_pair = temp_pairs[max_simillar]
-            # print("new pair:", new_pair)
-            append_pair = [new_pair[0], new_pair[1]]
+            append_pair = [new_pair[0], new_pair[1] ]
             queue.append(append_pair)
-            mapping_result.append([new_pair[0], new_pair[1], new_pair[2], new_pair[3], new_pair[4], new_pair[5], new_pair[6], new_pair[7], round(max_simillar,3)] )
+            new_pair.append(round(max_simillar,3))
+            mapping_result.append(new_pair)
+            print("new pair:", new_pair)
+            # mapping_result.append([new_pair[0], new_pair[1], new_pair[2], new_pair[3], new_pair[4], new_pair[5], new_pair[6], new_pair[7], round(max_simillar,3)] )
     print("Total: ", len(mapping_result))
     with open(FILE_MAP_OUT, 'w') as csvFile:
         writer = csv.writer(csvFile)
@@ -126,8 +146,13 @@ def main():
     cnx.close()
         
 
+
+
 start_time = time.time()
 main()
+# get_wrong_address()
 elapsed_time = time.time() - start_time
 print("\n------ Elapsed time: " + str(round(elapsed_time, 3)) + "s ------")
+
+
 
