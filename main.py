@@ -19,8 +19,11 @@ CONFIG_DB = {
 
 # FILE MAPPING PROVINCE:
 PAIR_PROVINCE       = "province_pair.csv"
+WRONG_ADDRESSES     = "wrong_addr.csv"
+TRUE_ADDRESSES      = "true_addr.csv"
 MAP_ALL_PROVINCE    = "province_name.csv"
 FILE_MAP_OUT        = "mapping_output.csv"
+
 
 PATTERNS = {
     '[àáảãạăắằẵặẳâầấậẫẩ]': 'a',
@@ -37,10 +40,11 @@ PREFIX = {
     'quận ': 'q ',
     'thị xã ': 'tx ',
     'thành phố ': 'tp ',
-    'xã ':  'x',
-    'phường ': 'p',
-    'thị trấn ': 'tt',
-    'đường '     : 'd'
+    'xã ':  'x ',
+    'phường ': 'p ',
+    'thị trấn ': 'tt ',
+    'đường '     : 'd ',
+    'phố '   : 'p '
 }
 
 def convert_non_accented(text):
@@ -54,10 +58,10 @@ def convert_non_accented(text):
     return output
 
 def addr_similar(a, b):
-
     a = convert_non_accented(a.lower())
     b = convert_non_accented(b.lower())
-    return SequenceMatcher(None, a, b).ratio()
+    simillars = SequenceMatcher(None, a, b).ratio()
+    return simillars
 
 def connect_db(cnx,config_db,  query):
     
@@ -68,8 +72,8 @@ def connect_db(cnx,config_db,  query):
     return result
 
 def get_wrong_address():
-    full_address = [line.rstrip('\n') for line in open('add_full.csv')]
-    filter_address = [line.rstrip('\n') for line in open('add_filter.csv')]
+    full_address = [line.rstrip('\n') for line in open('data/add_full.csv')]
+    filter_address = [line.rstrip('\n') for line in open('data/add_filter.csv')]
     # print(filter_address)
     print(type(full_address), type(filter_address))
     wrong_addr = list(set(full_address) - set(filter_address))
@@ -87,43 +91,50 @@ def main():
         mapping_result.append(line)
 
     pairs = [l.split() for l in open(PAIR_PROVINCE).readlines()]
-    wrong_addr
+    wrong_addrs = []
+    true_addrs = []
+    for line in open(WRONG_ADDRESSES).readlines():
+        line = line[:-1].split("\t")
+        wrong_addrs.append(list(map(int, line)))
+    
+    for line in open(TRUE_ADDRESSES).readlines():
+        line = line[:-1].split("\t")
+        true_addrs.append(list(map(int, line)))
+    
     queue = deque(pairs)
-    while (len(queue) != 0):
+    num_continue = 0
+    while (len(queue) != 0 and num_continue < 40):
         pair_address = queue.popleft()
-        # print(pair_address)
-        if(pair_address[2] in [2,4,5,6]):
-            print(pair_address[2])
-            continue
+        
         # address_service_id, name, prefix, parent_name, _type
         query1 = """
-            SELECT ad.id, ad._name, ad._prefix, ad1._name as parent_name, ad._type  
+            SELECT ad.id, ad.name, ad.prefix, ad1.name as parent_name, ad.type  
             FROM ghtk.address_service ad 
             LEFT JOIN ghtk.address_service ad1 on ad.parent_id = ad1.id
             WHERE ad.parent_id =""" + str(pair_address[1])  # BANG NAY CHUAN HON, 46767 ROWS
         address_1 = connect_db(cnx, CONFIG_DB, query1)
         # print("Q1", query1)
         if not address_1:
-            print("continue add1")
+            num_continue += 1
+            print("continue: ", num_continue)
             continue
         
         # Address_id, address_name, address_type, address_parent
         query2 = """
             SELECT ad.id, ad.name, ad.type, ad1.name as parent_name  
-            FROM ghtk.addresses ad 
-            LEFT JOIN ghtk.addresses ad1 on ad.parent_id = ad1.id
+            FROM ghtk.addresses_filter ad 
+            LEFT JOIN ghtk.addresses_filter ad1 on ad.parent_id = ad1.id
             WHERE ad.parent_id =""" + str(pair_address[0])   # BANG NAY CUA GHTK, 23484 ROWS
         address_2 = connect_db(cnx,CONFIG_DB, query2)
         # print("Q2", query2)
-        if not address_2:
-            print("continue add2")
-            continue
-        for add_2 in address_2:
+        for add_1 in address_1:
             temp_pairs = {}
-            for add_1 in address_1:
-                if (add_1[4] != add_2[2]):
+            for add_2 in address_2:
+                temp_wrong = [add_2[0], add_1[0]]
+                if (add_1[4] != add_2[2] ):
                     continue
-                simillar = addr_similar(add_1[1], add_2[1])
+                full_name = str(add_1[2])+ " " + add_1[1]
+                simillar = addr_similar(full_name, add_2[1])
                 if( simillar > 0.7):
                     temp_pair = [add_2[0], add_1[0], add_2[1], add_1[1], add_2[2], add_1[2], add_2[3], add_1[3] ]
                     temp_pairs[simillar] = temp_pair
@@ -132,11 +143,21 @@ def main():
             max_simillar = max(temp_pairs.keys())
             new_pair = temp_pairs[max_simillar]
             append_pair = [new_pair[0], new_pair[1] ]
+            if (append_pair in wrong_addrs):
+                print("wwwroooooonnnngggggg!!!!!!!!!")
+                continue
             queue.append(append_pair)
             new_pair.append(round(max_simillar,3))
+            if(append_pair in true_addrs):
+                new_pair.append("1")
+            else:
+                new_pair.append("")
+
+
             mapping_result.append(new_pair)
-            print("new pair:", new_pair)
-            # mapping_result.append([new_pair[0], new_pair[1], new_pair[2], new_pair[3], new_pair[4], new_pair[5], new_pair[6], new_pair[7], round(max_simillar,3)] )
+            num_continue = 0
+        print("new pair:", new_pair)
+    
     print("Total: ", len(mapping_result))
     with open(FILE_MAP_OUT, 'w') as csvFile:
         writer = csv.writer(csvFile)
