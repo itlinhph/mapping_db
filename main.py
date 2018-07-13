@@ -18,10 +18,11 @@ CONFIG_DB = {
 }
 
 # FILE MAPPING PROVINCE:
-PAIR_PROVINCE       = "province_pair.csv"
-WRONG_ADDRESSES     = "wrong_addr.csv"
-TRUE_ADDRESSES      = "true_addr.csv"
-MAP_ALL_PROVINCE    = "province_name.csv"
+PAIR_PROVINCE       = "data/province_pair.csv"
+WRONG_ADDRESSES     = "data/wrong_addr.csv"
+TRUE_ADDRESSES      = "data/true_addr.csv"
+NOTSURE_ADDRESSES   = "data/notsure.csv"
+MAP_ALL_PROVINCE    = "data/province_name.csv"
 FILE_MAP_OUT        = "mapping_output.csv"
 
 
@@ -41,10 +42,10 @@ PREFIX = {
     'thị xã ': 'tx ',
     'thành phố ': 'tp ',
     'xã ':  'x ',
-    'phường ': 'p ',
+    'phường ': 'ph ',
     'thị trấn ': 'tt ',
     'đường '     : 'd ',
-    'phố '   : 'p '
+    # 'phố ' : 'p '
 }
 
 def convert_non_accented(text):
@@ -59,7 +60,10 @@ def convert_non_accented(text):
 
 def addr_similar(a, b):
     a = convert_non_accented(a.lower())
+    a = " ".join(a.split())
     b = convert_non_accented(b.lower())
+    b = " ".join(b.split())
+    # print("String process: ", a,b)
     simillars = SequenceMatcher(None, a, b).ratio()
     return simillars
 
@@ -93,6 +97,7 @@ def main():
     pairs = [l.split() for l in open(PAIR_PROVINCE).readlines()]
     wrong_addrs = []
     true_addrs = []
+    notsure_addrs = []
     for line in open(WRONG_ADDRESSES).readlines():
         line = line[:-1].split("\t")
         wrong_addrs.append(list(map(int, line)))
@@ -100,6 +105,10 @@ def main():
     for line in open(TRUE_ADDRESSES).readlines():
         line = line[:-1].split("\t")
         true_addrs.append(list(map(int, line)))
+    
+    for line in open(NOTSURE_ADDRESSES).readlines():
+        line = line[:-1].split("\t")
+        notsure_addrs.append(list(map(int, line)))
     
     queue = deque(pairs)
     num_continue = 0
@@ -135,8 +144,8 @@ def main():
                     continue
                 full_name = str(add_1[2])+ " " + add_1[1]
                 simillar = addr_similar(full_name, add_2[1])
-                if( simillar > 0.7):
-                    temp_pair = [add_2[0], add_1[0], add_2[1], add_1[1], add_2[2], add_1[2], add_2[3], add_1[3] ]
+                if( simillar > 0.5):
+                    temp_pair = [add_2[0], add_1[0], add_2[1].rstrip(' \t\n\r'), add_1[1], add_2[2], add_1[2], add_2[3], add_1[3] ]
                     temp_pairs[simillar] = temp_pair
             if not temp_pairs:
                 continue
@@ -147,16 +156,22 @@ def main():
                 print("wwwroooooonnnngggggg!!!!!!!!!")
                 continue
             queue.append(append_pair)
-            new_pair.append(round(max_simillar,3))
+            if(addr_similar(new_pair[2], new_pair[3])==1):
+                new_pair.append("1")
+            else:
+                new_pair.append(round(max_simillar,3))
+            
             if(append_pair in true_addrs):
                 new_pair.append("1")
+            elif(append_pair in notsure_addrs):
+                new_pair.append("NOT SURE")
             else:
                 new_pair.append("")
 
 
             mapping_result.append(new_pair)
             num_continue = 0
-        print("new pair:", new_pair)
+            print("new pair:", new_pair)
     
     print("Total: ", len(mapping_result))
     with open(FILE_MAP_OUT, 'w') as csvFile:
@@ -172,6 +187,8 @@ def main():
 start_time = time.time()
 main()
 # get_wrong_address()
+# a = addr_similar("Ecohome", "Ecohome Phúc Lợi")
+print(a)
 elapsed_time = time.time() - start_time
 print("\n------ Elapsed time: " + str(round(elapsed_time, 3)) + "s ------")
 
