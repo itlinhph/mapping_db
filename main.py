@@ -63,7 +63,7 @@ def addr_similar(a, b):
     a = " ".join(a.split())
     b = convert_non_accented(b.lower())
     b = " ".join(b.split())
-    # print("String process: ", a,b)
+    print("String process: ", a,b)
     simillars = SequenceMatcher(None, a, b).ratio()
     return simillars
 
@@ -86,6 +86,13 @@ def get_wrong_address():
         for listitem in wrong_addr:
             filehandle.write('%s\n' % listitem)
 
+def load_checked_data(file_name):
+    list_pairs = []
+    for line in open(file_name).readlines():
+        line = line[:-1].split("\t")
+        list_pairs.append(list(map(int, line)))
+    
+    return list_pairs
 
 def main():
     cnx = mysql.connector.connect(**CONFIG_DB)
@@ -95,20 +102,9 @@ def main():
         mapping_result.append(line)
 
     pairs = [l.split() for l in open(PAIR_PROVINCE).readlines()]
-    wrong_addrs = []
-    true_addrs = []
-    notsure_addrs = []
-    for line in open(WRONG_ADDRESSES).readlines():
-        line = line[:-1].split("\t")
-        wrong_addrs.append(list(map(int, line)))
-    
-    for line in open(TRUE_ADDRESSES).readlines():
-        line = line[:-1].split("\t")
-        true_addrs.append(list(map(int, line)))
-    
-    for line in open(NOTSURE_ADDRESSES).readlines():
-        line = line[:-1].split("\t")
-        notsure_addrs.append(list(map(int, line)))
+    wrong_addrs = load_checked_data(WRONG_ADDRESSES)
+    true_addrs = load_checked_data(TRUE_ADDRESSES)
+    notsure_addrs = load_checked_data(NOTSURE_ADDRESSES)
     
     queue = deque(pairs)
     num_continue = 0
@@ -122,7 +118,7 @@ def main():
             LEFT JOIN ghtk.address_service ad1 on ad.parent_id = ad1.id
             WHERE ad.parent_id =""" + str(pair_address[1])  # BANG NAY CHUAN HON, 46767 ROWS
         address_1 = connect_db(cnx, CONFIG_DB, query1)
-        # print("Q1", query1)
+        
         if not address_1:
             num_continue += 1
             print("continue: ", num_continue)
@@ -135,7 +131,7 @@ def main():
             LEFT JOIN ghtk.addresses_filter ad1 on ad.parent_id = ad1.id
             WHERE ad.parent_id =""" + str(pair_address[0])   # BANG NAY CUA GHTK, 23484 ROWS
         address_2 = connect_db(cnx,CONFIG_DB, query2)
-        # print("Q2", query2)
+        
         for add_1 in address_1:
             temp_pairs = {}
             for add_2 in address_2:
@@ -188,7 +184,7 @@ start_time = time.time()
 main()
 # get_wrong_address()
 # a = addr_similar("Ecohome", "Ecohome Phúc Lợi")
-print(a)
+# print(a)
 elapsed_time = time.time() - start_time
 print("\n------ Elapsed time: " + str(round(elapsed_time, 3)) + "s ------")
 
