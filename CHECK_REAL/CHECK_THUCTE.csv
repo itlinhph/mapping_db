@@ -1,0 +1,33 @@
+MÃ TỈNH,Tên,Thành phố,Vùng,,addr_id,Addr_service_name
+1,An Giang,Thành phố Long Xuyên,Đồng bằng sông Cửu Long,,30,An Giang
+2,Bà Rịa - Vũng Tàu,Thành phố Bà Rịa,Đông Nam Bộ,,10,Bà Rịa Vũng Tàu
+3,Bạc Liêu,Thành phố Bạc Liêu,Đồng bằng sông Cửu Long,,55,Bạc Liêu
+7,Bến Tre,Thành phố Bến Tre,Đồng bằng sông Cửu Long,,37,Bến Tre
+9,Bình Định,Thành phố Quy Nhơn,Duyên hải Nam Trung Bộ,,25,Bình Định
+8,Bình Dương,Thành phố Thủ Dầu Một,Đông Nam Bộ,,4,Bình Dương
+10,Bình Phước,Thị xã Đồng Xoài,Đông Nam Bộ,,23,Bình Phước
+11,Bình Thuận,Thành phố Phan Thiết,Duyên hải Nam Trung Bộ,,13,Bình Thuận
+12,Cà Mau,Thành phố Cà Mau,Đồng bằng sông Cửu Long,,39,Cà Mau
+14,Cần Thơ,Quận Ninh Kiều,Đồng bằng sông Cửu Long,,12,Cần Thơ
+15,Đà Nẵng,Quận Hải Châu,Duyên hải Nam Trung Bộ,,3,Đà Nẵng
+16,Đắk Lắk,Thành phố Buôn Ma Thuột,Tây Nguyên,,11,Đắk Lắk
+17,Đắk Nông,Thị xã Gia Nghĩa,Tây Nguyên,,38,Đắk Nông
+18,Đồng Nai,Thành phố Biên Hòa,Đông Nam Bộ,,5,Đồng Nai
+19,Đồng Tháp,Thành phố Cao Lãnh,Đồng bằng sông Cửu Long,,47,Đồng Tháp
+21,Gia Lai,Thành phố Pleiku,Tây Nguyên,,22,Gia Lai
+29,Hậu Giang,Thành phố Vị Thanh,Đồng bằng sông Cửu Long,,53,Hậu Giang
+32,Khánh Hòa,Thành phố Nha Trang,Duyên hải Nam Trung Bộ,x,6,Khánh Hòa
+33,Kiên Giang,Thành phố Rạch Giá,Đồng bằng sông Cửu Long,,16,Kiên Giang
+34,Kon Tum,Thành phố Kon Tum,Tây Nguyên,,49,Kon Tum
+38,Lâm Đồng,Thành phố Đà Lạt,Tây Nguyên,,14,Lâm Đồng
+39,Long An,Thành phố Tân An,Đồng bằng sông Cửu Long,,8,Long An
+43,Ninh Thuận,Thành phố Phan Rang - Tháp Chàm,Duyên hải Nam Trung Bộ,,43,Ninh Thuận
+45,Phú Yên,Thành phố Tuy Hòa,Duyên hải Nam Trung Bộ,,44,Phú Yên
+47,Quảng Nam,Thành phố Tam Kỳ,Duyên hải Nam Trung Bộ,,9,Quảng Nam
+48,Quảng Ngãi,Thành phố Quảng Ngãi,Duyên hải Nam Trung Bộ,,36,Quảng Ngãi
+51,Sóc Trăng,Thành phố Sóc Trăng,Đồng bằng sông Cửu Long,,48,Sóc Trăng
+53,Tây Ninh,Thành phố Tây Ninh,Đông Nam Bộ,,32,Tây Ninh
+31,Thành phố Hồ Chí Minh,Quận 1,Đông Nam Bộ,,1,Hồ Chí Minh
+58,Tiền Giang,Thành phố Mỹ Tho,Đồng bằng sông Cửu Long,,26,Tiền Giang
+59,Trà Vinh,Thành phố Trà Vinh,Đồng bằng sông Cửu Long,,52,Trà Vinh
+61,Vĩnh Long,Thành phố Vĩnh Long,Đồng bằng sông Cửu Long,,40,Vĩnh Long
