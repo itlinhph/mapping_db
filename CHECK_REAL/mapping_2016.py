@@ -95,6 +95,8 @@ def main():
         address_2 = connect_db(cnx,CONFIG_DB, query2)
         
         for add_1 in address_1:
+            temp_simillar = []
+
             for add_2 in address_2:
                 have_pair = False
                 full_addr = add_1[2] + " " + add_1[1]
@@ -164,10 +166,10 @@ def main():
 
 
 start_time = time.time()
-main()
+# main()
 # get_wrong_address()
-# a = addr_similar("Ecohome", "Ecohome Phúc Lợi")
-# print(a)
+a = addr_similar("phường phúc xá", "phường phúc xá")
+print(a)
 elapsed_time = time.time() - start_time
 print("\n------ Elapsed time: " + str(round(elapsed_time, 3)) + "s ------")
 

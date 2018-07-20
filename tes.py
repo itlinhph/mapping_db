@@ -24,6 +24,8 @@ print(a)
 
 
 # ALTER TABLE devvn_2016_12 CHANGE `id` `id` varchar(6) CHARACTER SET utf8 ;
+# SET SQL_SAFE_UPDATES=0;
+# update devvn_tinhthanhpho set matp=concat('1',matp);
 
 
 #define PROVINCE_TYPE 0 //tỉnh, thành phố trực thuộc TW
