@@ -1,778 +1,714 @@
-DB16_ID,AS_ID,DB16_NAME,AS_NAME,PREFIX,P_ID,P_NAME,NOTE
-189,30,Tỉnh An Giang,An Giang,Tỉnh,NULL,NULL,1
-177,10,Tỉnh Bà Rịa - Vũng Tàu,Bà Rịa Vũng Tàu,Tỉnh,NULL,NULL,1
-124,28,Tỉnh Bắc Giang,Bắc Giang,Tỉnh,NULL,NULL,1
-106,62,Tỉnh Bắc Kạn,Bắc Kạn,Tỉnh,NULL,NULL,1
-195,55,Tỉnh Bạc Liêu,Bạc Liêu,Tỉnh,NULL,NULL,1
-127,17,Tỉnh Bắc Ninh,Bắc Ninh,Tỉnh,NULL,NULL,1
-183,37,Tỉnh Bến Tre,Bến Tre,Tỉnh,NULL,NULL,1
-152,25,Tỉnh Bình Định,Bình Định,Tỉnh,NULL,NULL,1
-174,4,Tỉnh Bình Dương,Bình Dương,Tỉnh,NULL,NULL,1
-170,23,Tỉnh Bình Phước,Bình Phước,Tỉnh,NULL,NULL,1
-160,13,Tỉnh Bình Thuận,Bình Thuận,Tỉnh,NULL,NULL,1
-196,39,Tỉnh Cà Mau,Cà Mau,Tỉnh,NULL,NULL,1
-192,12,Tỉnh Cần Thơ,Cần Thơ,Tỉnh,NULL,NULL,1
-104,63,Tỉnh Cao Bằng,Cao Bằng,Tỉnh,NULL,NULL,1
-148,3,Tỉnh Đà Nẵng,Đà Nẵng,Tỉnh,NULL,NULL,1
-166,11,Tỉnh Đắk Lắk,Đắk Lắk,Tỉnh,NULL,NULL,1
-167,38,Tỉnh Đắk Nông,Đắk Nông,Tỉnh,NULL,NULL,1
-111,58,Tỉnh Điện Biên,Điện Biên,Tỉnh,NULL,NULL,1
-175,5,Tỉnh Đồng Nai,Đồng Nai,Tỉnh,NULL,NULL,1
-187,47,Tỉnh Đồng Tháp,Đồng Tháp,Tỉnh,NULL,NULL,1
-164,22,Tỉnh Gia Lai,Gia Lai,Tỉnh,NULL,NULL,1
-102,61,Tỉnh Hà Giang,Hà Giang,Tỉnh,NULL,NULL,1
-135,45,Tỉnh Hà Nam,Hà Nam,Tỉnh,NULL,NULL,1
-101,2,Tỉnh Hà Nội,Hà Nội,Tỉnh,NULL,NULL,1
-142,46,Tỉnh Hà Tĩnh,Hà Tĩnh,Tỉnh,NULL,NULL,1
-130,21,Tỉnh Hải Dương,Hải Dương,Tỉnh,NULL,NULL,1
-131,7,Tỉnh Hải Phòng,Hải Phòng,Tỉnh,NULL,NULL,1
-193,53,Tỉnh Hậu Giang,Hậu Giang,Tỉnh,NULL,NULL,1
-179,1,Tỉnh Hồ Chí Minh,Hồ Chí Minh,Tỉnh,NULL,NULL,1
-117,29,Tỉnh Hoà Bình,Hòa Bình,Tỉnh,NULL,NULL,1
-133,24,Tỉnh Hưng Yên,Hưng Yên,Tỉnh,NULL,NULL,1
-156,6,Tỉnh Khánh Hòa,Khánh Hòa,Tỉnh,NULL,NULL,1
-191,16,Tỉnh Kiên Giang,Kiên Giang,Tỉnh,NULL,NULL,1
-162,49,Tỉnh Kon Tum,Kon Tum,Tỉnh,NULL,NULL,1
-112,59,Tỉnh Lai Châu,Lai Châu,Tỉnh,NULL,NULL,1
-168,14,Tỉnh Lâm Đồng,Lâm Đồng,Tỉnh,NULL,NULL,1
-120,60,Tỉnh Lạng Sơn,Lạng Sơn,Tỉnh,NULL,NULL,1
-110,34,Tỉnh Lào Cai,Lào Cai,Tỉnh,NULL,NULL,1
-180,8,Tỉnh Long An,Long An,Tỉnh,NULL,NULL,1
-136,35,Tỉnh Nam Định,Nam Định,Tỉnh,NULL,NULL,1
-140,20,Tỉnh Nghệ An,Nghệ An,Tỉnh,NULL,NULL,1
-137,41,Tỉnh Ninh Bình,Ninh Bình,Tỉnh,NULL,NULL,1
-158,43,Tỉnh Ninh Thuận,Ninh Thuận,Tỉnh,NULL,NULL,1
-125,42,Tỉnh Phú Thọ,Phú Thọ,Tỉnh,NULL,NULL,1
-154,44,Tỉnh Phú Yên,Phú Yên,Tỉnh,NULL,NULL,1
-144,50,Tỉnh Quảng Bình,Quảng Bình,Tỉnh,NULL,NULL,1
-149,9,Tỉnh Quảng Nam,Quảng Nam,Tỉnh,NULL,NULL,1
-151,36,Tỉnh Quảng Ngãi,Quảng Ngãi,Tỉnh,NULL,NULL,1
-122,18,Tỉnh Quảng Ninh,Quảng Ninh,Tỉnh,NULL,NULL,1
-145,51,Tỉnh Quảng Trị,Quảng Trị,Tỉnh,NULL,NULL,1
-194,48,Tỉnh Sóc Trăng,Sóc Trăng,Tỉnh,NULL,NULL,1
-114,54,Tỉnh Sơn La,Sơn La,Tỉnh,NULL,NULL,1
-172,32,Tỉnh Tây Ninh,Tây Ninh,Tỉnh,NULL,NULL,1
-134,27,Tỉnh Thái Bình,Thái Bình,Tỉnh,NULL,NULL,1
-119,33,Tỉnh Thái Nguyên,Thái Nguyên,Tỉnh,NULL,NULL,1
-138,19,Tỉnh Thanh Hóa,Thanh Hóa,Tỉnh,NULL,NULL,1
-146,15,Tỉnh Thừa Thiên Huế,Thừa Thiên Huế,Tỉnh,NULL,NULL,1
-182,26,Tỉnh Tiền Giang,Tiền Giang,Tỉnh,NULL,NULL,1
-184,52,Tỉnh Trà Vinh,Trà Vinh,Tỉnh,NULL,NULL,1
-108,57,Tỉnh Tuyên Quang,Tuyên Quang,Tỉnh,NULL,NULL,1
-186,40,Tỉnh Vĩnh Long,Vĩnh Long,Tỉnh,NULL,NULL,1
-126,31,Tỉnh Vĩnh Phúc,Vĩnh Phúc,Tỉnh,NULL,NULL,1
-115,56,Tỉnh Yên Bái,Yên Bái,Tỉnh,NULL,NULL,1
-,,,,,,,
-1883,393,Thành phố Long Xuyên,Long Xuyên,Thành phố,30,An Giang,1
-1884,389,Thành phố Châu Đốc,Châu Đốc,Thị xã,30,An Giang,Sai prefix
-1886,388,Huyện An Phú,An Phú,Huyện,30,An Giang,1
-1887,395,Thị xã Tân Châu,Tân Châu,Thị xã,30,An Giang,1
-1888,394,Huyện Phú Tân,Phú Tân,Huyện,30,An Giang,1
-1889,390,Huyện Châu Phú,Châu Phú,Huyện,30,An Giang,1
-1890,397,Huyện Tịnh Biên,Tịnh Biên,Huyện,30,An Giang,1
-1891,398,Huyện Tri Tôn,Tri Tôn,Huyện,30,An Giang,1
-1892,391,Huyện Châu Thành,Châu Thành,Huyện,30,An Giang,1
-1893,392,Huyện Chợ Mới,Chợ Mới,Huyện,30,An Giang,1
-1894,396,Huyện Thoại Sơn,Thoại Sơn,Huyện,30,An Giang,1
-1747,145,Thành phố Vũng Tàu,Vũng Tàu,Thành phố,10,Bà Rịa - Vũng Tàu,1
-1748,139,Thành phố Bà Rịa,Bà Rịa,Thị xã,10,Bà Rịa - Vũng Tàu,Sai prefix
-1750,140,Huyện Châu Đức,Châu Đức,Huyện,10,Bà Rịa - Vũng Tàu,1
-1751,146,Huyện Xuyên Mộc,Xuyên Mộc,Huyện,10,Bà Rịa - Vũng Tàu,1
-1752,143,Huyện Long Điền,Long Điền,Huyện,10,Bà Rịa - Vũng Tàu,1
-1753,142,Huyện Đất Đỏ,Đất Đỏ,Huyện,10,Bà Rịa - Vũng Tàu,1
-1754,144,Huyện Tân Thành,Tân Thành,Huyện,10,Bà Rịa - Vũng Tàu,1
-1755,141,Huyện Côn Đảo,Côn Đảo,Huyện,10,Bà Rịa - Vũng Tàu,1
-1213,367,Thành phố Bắc Giang,Bắc Giang,Thành phố,28,Bắc Giang,1
-1215,376,Huyện Yên Thế,Yên Thế,Huyện,28,Bắc Giang,1
-1216,373,Huyện Tân Yên,Tân Yên,Huyện,28,Bắc Giang,1
-1217,369,Huyện Lạng Giang,Lạng Giang,Huyện,28,Bắc Giang,1
-1218,370,Huyện Lục Nam,Lục Nam,Huyện,28,Bắc Giang,1
-1219,371,Huyện Lục Ngạn,Lục Ngạn,Huyện,28,Bắc Giang,1
-1220,372,Huyện Sơn Động,Sơn Động,Huyện,28,Bắc Giang,1
-1221,375,Huyện Yên Dũng,Yên Dũng,Huyện,28,Bắc Giang,1
-1222,374,Huyện Việt Yên,Việt Yên,Huyện,28,Bắc Giang,1
-1223,368,Huyện Hiệp Hòa,Hiệp Hòa,Huyện,28,Bắc Giang,1
-1058,690,Thành phố Bắc Kạn,Bắc Kạn,Thị xã,62,Bắc Kạn,Sai prefix
-1060,696,Huyện Pác Nặm,Pác Nặm,Huyện,62,Bắc Kạn,1
-1061,689,Huyện Ba Bể,Ba Bể,Huyện,62,Bắc Kạn,1
-1062,695,Huyện Ngân Sơn,Ngân Sơn,Huyện,62,Bắc Kạn,1
-1063,691,Huyện Bạch Thông,Bạch Thông,Huyện,62,Bắc Kạn,1
-1064,692,Huyện Chợ Đồn,Chợ Đồn,Huyện,62,Bắc Kạn,1
-1065,693,Huyện Chợ Mới,Chợ Mới,Huyện,62,Bắc Kạn,1
-1066,694,Huyện Na Rì,Na Rì,Huyện,62,Bắc Kạn,1
-1954,626,Thành phố Bạc Liêu,Bạc Liêu,Thành phố,55,Bạc Liêu,1
-1956,630,Huyện Hồng Dân,Hồng Dân,Huyện,55,Bạc Liêu,1
-1957,631,Huyện Phước Long,Phước Long,Huyện,55,Bạc Liêu,1
-1958,632,Huyện Vĩnh Lợi,Vĩnh Lợi,Huyện,55,Bạc Liêu,1
-1959,628,Thị xã Giá Rai,Giá Rai,Huyện,55,Bạc Liêu,Sai prefix
-1960,627,Huyện Đông Hải,Đông Hải,Huyện,55,Bạc Liêu,1
-1961,629,Huyện Hoà Bình,Hòa Bình,Huyện,55,Bạc Liêu,0.857
-1256,217,Thành phố Bắc Ninh,Bắc Ninh,Thành phố,17,Bắc Ninh,1
-1258,224,Huyện Yên Phong,Yên Phong,Huyện,17,Bắc Ninh,1
-1259,220,Huyện Quế Võ,Quế Võ,Huyện,17,Bắc Ninh,1
-1260,222,Huyện Tiên Du,Tiên Du,Huyện,17,Bắc Ninh,1
-1261,223,Thị xã Từ Sơn,Từ Sơn,Thị xã,17,Bắc Ninh,1
-1262,221,Huyện Thuận Thành,Thuận Thành,Huyện,17,Bắc Ninh,1
-1263,218,Huyện Gia Bình,Gia Bình,Huyện,17,Bắc Ninh,1
-1264,219,Huyện Lương Tài,Lương Tài,Huyện,17,Bắc Ninh,1
-1829,460,Thành phố Bến Tre,Bến Tre,Thành phố,37,Bến Tre,1
-1831,462,Huyện Châu Thành,Châu Thành,Huyện,37,Bến Tre,1
-1832,463,Huyện Chợ Lách,Chợ Lách,Huyện,37,Bến Tre,1
-1833,466,Huyện Mỏ Cày Nam,Mỏ Cày Nam,Huyện,37,Bến Tre,1
-1834,464,Huyện Giồng Trôm,Giồng Trôm,Huyện,37,Bến Tre,1
-1835,461,Huyện Bình Đại,Bình Đại,Huyện,37,Bến Tre,1
-1836,459,Huyện Ba Tri,Ba Tri,Huyện,37,Bến Tre,1
-1837,467,Huyện Thạnh Phú,Thạnh Phú,Huyện,37,Bến Tre,1
-1838,465,Huyện Mỏ Cày Bắc,Mỏ Cày Bắc,Huyện,37,Bến Tre,1
-1540,343,Thành phố Qui Nhơn,Quy Nhơn,Thành phố,25,Bình Định,0.944
-1542,337,Huyện An Lão,An Lão,Huyện,25,Bình Định,1
-1543,340,Huyện Hoài Nhơn,Hoài Nhơn,Huyện,25,Bình Định,1
-1544,339,Huyện Hoài Ân,Hoài Ân,Huyện,25,Bình Định,1
-1545,342,Huyện Phù Mỹ,Phù Mỹ,Huyện,25,Bình Định,1
-1546,347,Huyện Vĩnh Thạnh,Vĩnh Thạnh,Huyện,25,Bình Định,1
-1547,344,Huyện Tây Sơn,Tây Sơn,Huyện,25,Bình Định,1
-1548,341,Huyện Phù Cát,Phù Cát,Huyện,25,Bình Định,1
-1549,338,Thị xã An Nhơn,An Nhơn,Huyện,25,Bình Định,Sai prefix
-1550,345,Huyện Tuy Phước,Tuy Phước,Huyện,25,Bình Định,1
-1551,346,Huyện Vân Canh,Vân Canh,Huyện,25,Bình Định,1
-1718,69,Thành phố Thủ Dầu Một,Thủ Dầu Một,Thị xã,4,Bình Dương,Sai prefix
-1719,63,Huyện Bàu Bàng,Bàu Bàng,Huyện,4,Bình Dương,1
-1720,65,Huyện Dầu Tiếng,Dầu Tiếng,Huyện,4,Bình Dương,1
-1721,64,Thị xã Bến Cát,Bến Cát,Thị xã,4,Bình Dương,1
-1722,67,Huyện Phú Giáo,Phú Giáo,Huyện,4,Bình Dương,1
-1723,68,Thị xã Tân Uyên,Tân Uyên,Huyện,4,Bình Dương,Sai prefix
-1724,66,Thị xã Dĩ An,Dĩ An,Thị xã,4,Bình Dương,1
-1725,70,Thị xã Thuận An,Thuận An,Huyện,4,Bình Dương,Sai prefix
-1726,68,Huyện Bắc Tân Uyên,Tân Uyên,Huyện,4,Bình Dương,0.875
-1688,326,Thị xã Phước Long,Phước Long,Thị xã,23,Bình Phước,1
-1689,322,Thị xã Đồng Xoài,Đồng Xoài,Thị xã,23,Bình Phước,1
-1690,316,Thị xã Bình Long,Bình Long,Thị xã,23,Bình Phước,1
-1691,319,Huyện Bù Gia Mập,Bù Gia Mập,Huyện,23,Bình Phước,1
-1692,324,Huyện Lộc Ninh,Lộc Ninh,Huyện,23,Bình Phước,1
-1693,318,Huyện Bù Đốp,Bù Đốp,Huyện,23,Bình Phước,1
-1694,323,Huyện Hớn Quản,Hớn Quản,Huyện,23,Bình Phước,1
-1695,321,Huyện Đồng Phú,Đồng Phú,Huyện,23,Bình Phước,1
-1696,317,Huyện Bù Đăng,Bù Đăng,Huyện,23,Bình Phước,1
-1697,320,Huyện Chơn Thành,Chơn Thành,Huyện,23,Bình Phước,1
-1698,325,Huyện Phú Riềng,Phú Riềng,Huyện,23,Bình Phước,1
-1593,178,Thành phố Phan Thiết,Phan Thiết,Thành phố,13,Bình Thuận,1
-1594,177,Thị xã La Gi,La Gi,Thị xã,13,Bình Thuận,1
-1595,180,Huyện Tuy Phong,Tuy Phong,Huyện,13,Bình Thuận,1
-1596,171,Huyện Bắc Bình,Bắc Bình,Huyện,13,Bình Thuận,1
-1597,175,Huyện Hàm Thuận Bắc,Hàm Thuận Bắc,Huyện,13,Bình Thuận,1
-1598,176,Huyện Hàm Thuận Nam,Hàm Thuận Nam,Huyện,13,Bình Thuận,1
-1599,179,Huyện Tánh Linh,Tánh Linh,Huyện,13,Bình Thuận,1
-1600,173,Huyện Đức Linh,Đức Linh,Huyện,13,Bình Thuận,1
-1601,174,Huyện Hàm Tân,Hàm Tân,Huyện,13,Bình Thuận,1
-1602,172,Huyện Phú Quí,Đảo Phú Quý,Huyện,13,Bình Thuận,0.8
-1964,476,Thành phố Cà Mau,Cà Mau,Thành phố,39,Cà Mau,1
-1966,484,Huyện U Minh,U Minh,Huyện,39,Cà Mau,1
-1967,482,Huyện Thới Bình,Thới Bình,Huyện,39,Cà Mau,1
-1968,483,Huyện Trần Văn Thời,Trần Văn Thời,Huyện,39,Cà Mau,1
-1969,477,Huyện Cái Nước,Cái Nước,Huyện,39,Cà Mau,1
-1970,478,Huyện Đầm Dơi,Đầm Dơi,Huyện,39,Cà Mau,1
-1971,479,Huyện Năm Căn,Năm Căn,Huyện,39,Cà Mau,1
-1972,481,Huyện Phú Tân,Phú Tân,Huyện,39,Cà Mau,1
-1973,480,Huyện Ngọc Hiển,Ngọc Hiển,Huyện,39,Cà Mau,1
-1916,166,Quận Ninh Kiều,Ninh Kiều,Quận,12,Cần Thơ,1
-1917,167,Quận Ô Môn,Ô Môn,Quận,12,Cần Thơ,1
-1918,163,Quận Bình Thuỷ,Bình Thủy,Quận,12,Cần Thơ,0.857
-1919,164,Quận Cái Răng,Cái Răng,Quận,12,Cần Thơ,1
-1923,169,Quận Thốt Nốt,Thốt Nốt,Quận,12,Cần Thơ,1
-1924,170,Huyện Vĩnh Thạnh,Vĩnh Thạnh,Huyện,12,Cần Thơ,1
-1925,165,Huyện Cờ Đỏ,Cờ Đỏ,Huyện,12,Cần Thơ,1
-1926,168,Huyện Phong Điền,Phong Điền,Huyện,12,Cần Thơ,1
-1927,162,Huyện Thới Lai,Thới Lai,Huyện,12,Cần Thơ,1
-1040,699,Thành phố Cao Bằng,Cao Bằng,Thị xã,63,Cao Bằng,Sai prefix
-1042,698,Huyện Bảo Lâm,Bảo Lâm,Huyện,63,Cao Bằng,1
-1043,697,Huyện Bảo Lạc,Bảo Lạc,Huyện,63,Cao Bằng,1
-1044,707,Huyện Thông Nông,Thông Nông,Huyện,63,Cao Bằng,1
-1045,701,Huyện Hà Quảng,Hà Quảng,Huyện,63,Cao Bằng,1
-1046,708,Huyện Trà Lĩnh,Trà Lĩnh,Huyện,63,Cao Bằng,1
-1047,709,Huyện Trùng Khánh,Trùng Khánh,Huyện,63,Cao Bằng,1
-1048,700,Huyện Hạ Lang,Hạ Lang,Huyện,63,Cao Bằng,1
-1049,705,Huyện Quảng Uyên,Quảng Uyên,Huyện,63,Cao Bằng,1
-1050,704,Huyện Phục Hoà,Phục Hòa,Huyện,63,Cao Bằng,0.857
-1051,702,Huyện Hoà An,Hòa An,Huyện,63,Cao Bằng,0.833
-1052,703,Huyện Nguyên Bình,Nguyên Bình,Huyện,63,Cao Bằng,1
-1053,706,Huyện Thạch An,Thạch An,Huyện,63,Cao Bằng,1
-1490,59,Quận Liên Chiểu,Liên Chiểu,Quận,3,Đà Nẵng,1
-1491,62,Quận Thanh Khê,Thanh Khê,Quận,3,Đà Nẵng,1
-1492,56,Quận Hải Châu,Hải Châu,Quận,3,Đà Nẵng,1
-1493,61,Quận Sơn Trà,Sơn Trà,Quận,3,Đà Nẵng,1
-1494,60,Quận Ngũ Hành Sơn,Ngũ Hành Sơn,Quận,3,Đà Nẵng,1
-1495,55,Quận Cẩm Lệ,Cẩm Lệ,Quận,3,Đà Nẵng,1
-1497,57,Huyện Hòa Vang,Hòa Vang,Huyện,3,Đà Nẵng,1
-1498,58,Huyện Hoàng Sa,Hoàng Sa,Huyện,3,Đà Nẵng,1
-1643,149,Thành phố Buôn Ma Thuột,Buôn Ma Thuột,Thành phố,11,Đắk Lắk,1
-1644,148,Thị Xã Buôn Hồ,Buôn Hồ,Thị xã,11,Đắk Lắk,1
-1645,152,Huyện Ea H'leo,Ea H'Leo,Huyện,11,Đắk Lắk,1
-1646,154,Huyện Ea Súp,Ea Súp,Huyện,11,Đắk Lắk,1
-1647,147,Huyện Buôn Đôn,Buôn Đôn,Huyện,11,Đắk Lắk,1
-1648,151,Huyện Cư M'gar,Cư M'gar,Huyện,11,Đắk Lắk,1
-1649,157,Huyện Krông Búk,Krông Buk,Huyện,11,Đắk Lắk,0.933
-1650,158,Huyện Krông Năng,Krông Năng,Huyện,11,Đắk Lắk,1
-1651,153,Huyện Ea Kar,Ea Kar,Huyện,11,Đắk Lắk,1
-1652,161,Huyện M'Đrắk,M'Đrăk,Huyện,11,Đắk Lắk,0.917
-1653,156,Huyện Krông Bông,Krông Bông,Huyện,11,Đắk Lắk,1
-1654,159,Huyện Krông Pắc,Krông Pắc,Huyện,11,Đắk Lắk,1
-1655,155,Huyện Krông A Na,Krông Ana,Huyện,11,Đắk Lắk,0.968
-1656,160,Huyện Lắk,Lăk,Huyện,11,Đắk Lắk,0.889
-1657,150,Huyện Cư Kuin,Cư Kuin,Huyện,11,Đắk Lắk,1
-1660,473,Thị xã Gia Nghĩa,Gia Nghĩa,Thị xã,38,Đắk Nông,1
-1661,469,Huyện Đăk Glong,Dăk GLong,Huyện,38,Đắk Nông,0.933
-1662,468,Huyện Cư Jút,Cư Jút,Huyện,38,Đắk Nông,1
-1663,470,Huyện Đắk Mil,Dăk Mil,Huyện,38,Đắk Nông,0.846
-1664,474,Huyện Krông Nô,Krông Nô,Huyện,38,Đắk Nông,1
-1665,472,Huyện Đắk Song,Dăk Song,Huyện,38,Đắk Nông,0.857
-1666,471,Huyện Đắk R'Lấp,Dăk R'Lấp,Huyện,38,Đắk Nông,0.867
-1667,475,Huyện Tuy Đức,Tuy Đức,Huyện,38,Đắk Nông,1
-1094,651,Thành phố Điện Biên Phủ,Điện Biên Phủ,Thành phố,58,Điện Biên,1
-1095,654,Thị Xã Mường Lay,Mường Lay,Thị xã,58,Điện Biên,1
-1096,655,Huyện Mường Nhé,Mường Nhé,Huyện,58,Điện Biên,1
-1097,653,Huyện Mường Chà,Mường Chà,Huyện,58,Điện Biên,1
-1098,657,Huyện Tủa Chùa,Tủa Chùa,Huyện,58,Điện Biên,1
-1099,658,Huyện Tuần Giáo,Tuần Giáo,Huyện,58,Điện Biên,1
-1100,649,Huyện Điện Biên,Điện Biên,Huyện,58,Điện Biên,1
-1101,650,Huyện Điện Biên Đông,Điện Biên Đông,Huyện,58,Điện Biên,1
-1102,652,Huyện Mường Ảng,Mường Ảng,Huyện,58,Điện Biên,1
-1103,656,Huyện Nậm Pồ,Nậm Pồ,Huyện,58,Điện Biên,1
-1731,71,Thành phố Biên Hòa,Biên Hòa,Thành phố,5,Đồng Nai,1
-1732,74,Thị xã Long Khánh,Long Khánh,Thị xã,5,Đồng Nai,1
-1734,77,Huyện Tân Phú,Tân Phú,Quận,5,Đồng Nai,Sai prefix
-1735,80,Huyện Vĩnh Cửu,Vĩnh Cửu,Huyện,5,Đồng Nai,1
-1736,73,Huyện Định Quán,Định Quán,Huyện,5,Đồng Nai,1
-1737,79,Huyện Trảng Bom,Trảng Bom,Huyện,5,Đồng Nai,1
-1738,78,Huyện Thống Nhất,Thống Nhất,Huyện,5,Đồng Nai,1
-1739,72,Huyện Cẩm Mỹ,Cẩm Mỹ,Huyện,5,Đồng Nai,1
-1740,75,Huyện Long Thành,Long Thành,Huyện,5,Đồng Nai,1
-1741,81,Huyện Xuân Lộc,Xuân Lộc,Huyện,5,Đồng Nai,1
-1742,76,Huyện Nhơn Trạch,Nhơn Trạch,Huyện,5,Đồng Nai,1
-1866,548,Thành phố Cao Lãnh,Cao Lãnh,Thành phố,47,Đồng Tháp,1
-1867,555,Thành phố Sa Đéc,Sa Đéc,Thị xã,47,Đồng Tháp,Sai prefix
-1868,550,Thị xã Hồng Ngự,Hồng Ngự,Thị xã,47,Đồng Tháp,1
-1869,557,Huyện Tân Hồng,Tân Hồng,Huyện,47,Đồng Tháp,1
-1870,550,Huyện Hồng Ngự,Hồng Ngự,Thị xã,47,Đồng Tháp,Sai prefix
-1871,556,Huyện Tam Nông,Tam Nông,Huyện,47,Đồng Tháp,1
-1872,559,Huyện Tháp Mười,Tháp Mười,Huyện,47,Đồng Tháp,1
-1873,548,Huyện Cao Lãnh,Cao Lãnh,Thành phố,47,Đồng Tháp,Sai prefix
-1874,558,Huyện Thanh Bình,Thanh Bình,Huyện,47,Đồng Tháp,1
-1875,554,Huyện Lấp Vò,Lấp Vò,Huyện,47,Đồng Tháp,1
-1876,553,Huyện Lai Vung,Lai Vung,Huyện,47,Đồng Tháp,1
-1877,549,Huyện Châu Thành,Châu Thành,Huyện,47,Đồng Tháp,1
-1622,315,Thành phố Pleiku,Plei Ku,Thành phố,22,Gia Lai,0.97
-1623,299,Thị xã An Khê,An Khê,Thị xã,22,Gia Lai,1
-1624,300,Thị xã Ayun Pa,AYun Pa,Thị xã,22,Gia Lai,1
-1625,310,Huyện KBang,KBang,Huyện,22,Gia Lai,1
-1626,305,Huyện Đăk Đoa,Đăk Đoa,Huyện,22,Gia Lai,1
-1627,301,Huyện Chư Păh,Chư Păh,Huyện,22,Gia Lai,1
-1628,308,Huyện Ia Grai,Ia Grai,Huyện,22,Gia Lai,1
-1629,313,Huyện Mang Yang,Mang Yang,Huyện,22,Gia Lai,1
-1630,311,Huyện Kông Chro,Kông Chro,Huyện,22,Gia Lai,1
-1631,307,Huyện Đức Cơ,Đức Cơ,Huyện,22,Gia Lai,1
-1632,304,Huyện Chư Prông,ChưPRông,Huyện,22,Gia Lai,0.966
-1633,303,Huyện Chư Sê,Chư Sê,Huyện,22,Gia Lai,1
-1634,306,Huyện Đăk Pơ,Đăk Pơ,Huyện,22,Gia Lai,1
-1635,309,Huyện Ia Pa,Ia Pa,Huyện,22,Gia Lai,1
-1637,312,Huyện Krông Pa,Krông Pa,Huyện,22,Gia Lai,1
-1638,314,Huyện Phú Thiện,Phú Thiện,Huyện,22,Gia Lai,1
-1639,302,Huyện Chư Pưh,Chư Pưh,Huyện,22,Gia Lai,1
-1024,681,Thành phố Hà Giang,Hà Giang,Thành phố,61,Hà Giang,1
-1026,680,Huyện Đồng Văn,Đồng Văn,Huyện,61,Hà Giang,1
-1027,683,Huyện Mèo Vạc,Mèo Vạc,Huyện,61,Hà Giang,1
-1028,688,Huyện Yên Minh,Yên Minh,Huyện,61,Hà Giang,1
-1029,684,Huyện Quản Bạ,Quản Bạ,Huyện,61,Hà Giang,1
-1030,686,Huyện Vị Xuyên,Vị Xuyên,Huyện,61,Hà Giang,1
-1031,678,Huyện Bắc Mê,Bắc Mê,Huyện,61,Hà Giang,1
-1032,682,Huyện Hoàng Su Phì,Hoàng Su Phì,Huyện,61,Hà Giang,1
-1033,687,Huyện Xín Mần,Xín Mần,Huyện,61,Hà Giang,1
-1034,679,Huyện Bắc Quang,Bắc Quang,Huyện,61,Hà Giang,1
-1035,685,Huyện Quang Bình,Quang Bình,Huyện,61,Hà Giang,1
-1347,534,Thành phố Phủ Lý,Phủ Lý,Thành phố,45,Hà Nam,1
-1349,531,Huyện Duy Tiên,Duy Tiên,Huyện,45,Hà Nam,1
-1350,532,Huyện Kim Bảng,Kim Bảng,Huyện,45,Hà Nam,1
-1351,535,Huyện Thanh Liêm,Thanh Liêm,Huyện,45,Hà Nam,1
-1352,530,Huyện Bình Lục,Bình Lục,Huyện,45,Hà Nam,1
-1353,533,Huyện Lý Nhân,Lý Nhân,Huyện,45,Hà Nam,1
-1001,25,Quận Ba Đình,Ba Đình,Quận,2,Hà Nội,1
-1002,37,Quận Hoàn Kiếm,Hoàn Kiếm,Quận,2,Hà Nội,1
-1003,48,Quận Tây Hồ,Tây Hồ,Quận,2,Hà Nội,1
-1004,39,Quận Long Biên,Long Biên,Quận,2,Hà Nội,1
-1005,28,Quận Cầu Giấy,Cầu Giấy,Quận,2,Hà Nội,1
-1006,32,Quận Đống Đa,Đống Đa,Quận,2,Hà Nội,1
-1007,35,Quận Hai Bà Trưng,Hai Bà Trưng,Quận,2,Hà Nội,1
-1008,38,Quận Hoàng Mai,Hoàng Mai,Quận,2,Hà Nội,1
-1009,52,Quận Thanh Xuân,Thanh Xuân,Quận,2,Hà Nội,1
-1016,46,Huyện Sóc Sơn,Sóc Sơn,Huyện,2,Hà Nội,1
-1017,31,Huyện Đông Anh,Đông Anh,Huyện,2,Hà Nội,1
-1018,33,Huyện Gia Lâm,Gia Lâm,Huyện,2,Hà Nội,1
-1019,42,Quận Nam Từ Liêm,Nam Từ Liêm,Quận,2,Hà Nội,1
-1020,51,Huyện Thanh Trì,Thanh Trì,Huyện,2,Hà Nội,1
-1021,27,Quận Bắc Từ Liêm,Bắc Từ Liêm,Quận,2,Hà Nội,1
-1250,40,Huyện Mê Linh,Mê Linh,Huyện,2,Hà Nội,1
-1268,34,Quận Hà Đông,Hà Đông,Quận,2,Hà Nội,1
-1269,47,Thị xã Sơn Tây,Sơn Tây,Thị xã,2,Hà Nội,1
-1271,26,Huyện Ba Vì,Ba Vì,Huyện,2,Hà Nội,1
-1272,44,Huyện Phúc Thọ,Phúc Thọ,Huyện,2,Hà Nội,1
-1273,30,Huyện Đan Phượng,Đan Phượng,Huyện,2,Hà Nội,1
-1274,36,Huyện Hoài Đức,Hoài Đức,Huyện,2,Hà Nội,1
-1275,45,Huyện Quốc Oai,Quốc Oai,Huyện,2,Hà Nội,1
-1276,49,Huyện Thạch Thất,Thạch Thất,Huyện,2,Hà Nội,1
-1277,29,Huyện Chương Mỹ,Chương Mỹ,Huyện,2,Hà Nội,1
-1278,50,Huyện Thanh Oai,Thanh Oai,Huyện,2,Hà Nội,1
-1279,53,Huyện Thường Tín,Thường Tín,Huyện,2,Hà Nội,1
-1280,43,Huyện Phú Xuyên,Phú Xuyên,Huyện,2,Hà Nội,1
-1281,54,Huyện Ứng Hòa,Ứng Hòa,Huyện,2,Hà Nội,1
-1282,41,Huyện Mỹ Đức,Mỹ Đức,Huyện,2,Hà Nội,1
-1436,539,Thành phố Hà Tĩnh,Hà Tĩnh,Thành phố,46,Hà Tĩnh,1
-1437,540,Thị xã Hồng Lĩnh,Hồng Lĩnh,Thị xã,46,Hà Tĩnh,1
-1439,542,Huyện Hương Sơn,Hương Sơn,Huyện,46,Hà Tĩnh,1
-1440,538,Huyện Đức Thọ,Đức Thọ,Huyện,46,Hà Tĩnh,1
-1441,547,Huyện Vũ Quang,Vũ Quang,Huyện,46,Hà Tĩnh,1
-1442,545,Huyện Nghi Xuân,Nghi Xuân,Huyện,46,Hà Tĩnh,1
-1443,537,Huyện Can Lộc,Can Lộc,Huyện,46,Hà Tĩnh,1
-1444,541,Huyện Hương Khê,Hương Khê,Huyện,46,Hà Tĩnh,1
-1445,546,Huyện Thạch Hà,Thạch Hà,Huyện,46,Hà Tĩnh,1
-1446,536,Huyện Cẩm Xuyên,Cẩm Xuyên,Huyện,46,Hà Tĩnh,1
-1447,543,Huyện Kỳ Anh,Kỳ Anh,Huyện,46,Hà Tĩnh,1
-1448,544,Huyện Lộc Hà,Lộc Hà,Huyện,46,Hà Tĩnh,1
-1449,543,Thị xã Kỳ Anh,Kỳ Anh,Huyện,46,Hà Tĩnh,Sai prefix
-1288,291,Thành phố Hải Dương,Hải Dương,Thành phố,21,Hải Dương,1
-1290,289,Thị xã Chí Linh,Chí Linh,Thị xã,21,Hải Dương,1
-1291,294,Huyện Nam Sách,Nam Sách,Huyện,21,Hải Dương,1
-1292,293,Huyện Kinh Môn,Kinh Môn,Huyện,21,Hải Dương,1
-1293,292,Huyện Kim Thành,Kim Thành,Huyện,21,Hải Dương,1
-1294,296,Huyện Thanh Hà,Thanh Hà,Huyện,21,Hải Dương,1
-1295,288,Huyện Cẩm Giàng,Cẩm Giàng,Huyện,21,Hải Dương,1
-1296,287,Huyện Bình Giang,Bình Giang,Huyện,21,Hải Dương,1
-1297,290,Huyện Gia Lộc,Gia Lộc,Huyện,21,Hải Dương,1
-1298,298,Huyện Tứ Kỳ,Tứ Kỳ,Huyện,21,Hải Dương,1
-1299,295,Huyện Ninh Giang,Ninh Giang,Huyện,21,Hải Dương,1
-1300,297,Huyện Thanh Miện,Thanh Miện,Huyện,21,Hải Dương,1
-1303,98,Quận Hồng Bàng,Hồng Bàng,Quận,7,Hải Phòng,1
-1304,102,Quận Ngô Quyền,Ngô Quyền,Quận,7,Hải Phòng,1
-1305,101,Quận Lê Chân,Lê Chân,Quận,7,Hải Phòng,1
-1306,97,Quận Hải An,Hải An,Quận,7,Hải Phòng,1
-1307,99,Quận Kiến An,Kiến An,Quận,7,Hải Phòng,1
-1308,95,Quận Đồ Sơn,Đồ Sơn,Quận,7,Hải Phòng,1
-1309,96,Quận Dương Kinh,Dương Kinh,Quận,7,Hải Phòng,1
-1311,103,Huyện Thuỷ Nguyên,Thủy Nguyên,Huyện,7,Hải Phòng,0.882
-1312,91,Huyện An Dương,An Dương,Huyện,7,Hải Phòng,1
-1313,92,Huyện An Lão,An Lão,Huyện,7,Hải Phòng,1
-1314,100,Huyện Kiến Thuỵ,Kiến Thụy,Huyện,7,Hải Phòng,0.867
-1315,104,Huyện Tiên Lãng,Tiên Lãng,Huyện,7,Hải Phòng,1
-1316,105,Huyện Vĩnh Bảo,Vĩnh Bảo,Huyện,7,Hải Phòng,1
-1317,94,Huyện Cát Hải,Cát Hải,Huyện,7,Hải Phòng,1
-1318,93,Huyện Bạch Long Vĩ,Bạch Long Vĩ,Huyện,7,Hải Phòng,1
-1930,612,Thành phố Vị Thanh,Vị Thanh,Thành phố,53,Hậu Giang,1
-1931,610,Thị xã Ngã Bảy,Ngã Bảy,Thị xã,53,Hậu Giang,1
-1932,608,Huyện Châu Thành A,Châu Thành A,Huyện,53,Hậu Giang,1
-1933,607,Huyện Châu Thành,Châu Thành,Huyện,53,Hậu Giang,1
-1934,611,Huyện Phụng Hiệp,Phụng Hiệp,Huyện,53,Hậu Giang,1
-1935,613,Huyện Vị Thuỷ,Vị Thủy,Huyện,53,Hậu Giang,0.846
-1936,609,Huyện Long Mỹ,Long Mỹ,Huyện,53,Hậu Giang,1
-1937,609,Thị xã Long Mỹ,Long Mỹ,Huyện,53,Hậu Giang,Sai prefix
-1760,10,Quận 1,Quận 1,,1,Hồ Chí Minh,1
-1761,13,Quận 12,Quận 12,,1,Hồ Chí Minh,1
-1762,24,Quận Thủ Đức,Thủ Đức,Quận,1,Hồ Chí Minh,1
-1763,21,Quận 9,Quận 9,,1,Hồ Chí Minh,1
-1764,6,Quận Gò Vấp,Gò Vấp,Quận,1,Hồ Chí Minh,1
-1765,3,Quận Bình Thạnh,Bình Thạnh,Quận,1,Hồ Chí Minh,1
-1766,22,Quận Tân Bình,Tân Bình,Quận,1,Hồ Chí Minh,1
-1767,23,Quận Tân Phú,Tân Phú,Quận,1,Hồ Chí Minh,1
-1768,9,Quận Phú Nhuận,Phú Nhuận,Quận,1,Hồ Chí Minh,1
-1769,14,Quận 2,Quận 2,,1,Hồ Chí Minh,1
-1770,15,Quận 3,Quận 3,,1,Hồ Chí Minh,1
-1771,11,Quận 10,Quận 10,,1,Hồ Chí Minh,1
-1772,12,Quận 11,Quận 11,,1,Hồ Chí Minh,1
-1773,16,Quận 4,Quận 4,,1,Hồ Chí Minh,1
-1774,17,Quận 5,Quận 5,,1,Hồ Chí Minh,1
-1775,18,Quận 6,Quận 6,,1,Hồ Chí Minh,1
-1776,20,Quận 8,Quận 8,,1,Hồ Chí Minh,1
-1777,2,Quận Bình Tân,Bình Tân,Quận,1,Hồ Chí Minh,1
-1778,19,Quận 7,Quận 7,,1,Hồ Chí Minh,1
-1783,5,Huyện Củ Chi,Củ Chi,Huyện,1,Hồ Chí Minh,1
-1784,7,Huyện Hóc Môn,Hóc Môn,Huyện,1,Hồ Chí Minh,1
-1785,1,Huyện Bình Chánh,Bình Chánh,Huyện,1,Hồ Chí Minh,1
-1786,8,Huyện Nhà Bè,Nhà Bè,Huyện,1,Hồ Chí Minh,1
-1787,4,Huyện Cần Giờ,Cần Giờ,Huyện,1,Hồ Chí Minh,1
-1148,379,Thành phố Hòa Bình,Hòa Bình,Thành phố,29,Hòa Bình,1
-1150,378,Huyện Đà Bắc,Đà Bắc,Huyện,29,Hòa Bình,1
-1151,381,Huyện Kỳ Sơn,Kỳ Sơn,Huyện,29,Hòa Bình,1
-1152,384,Huyện Lương Sơn,Lương Sơn,Huyện,29,Hòa Bình,1
-1153,380,Huyện Kim Bôi,Kim Bôi,Huyện,29,Hòa Bình,1
-1154,377,Huyện Cao Phong,Cao Phong,Huyện,29,Hòa Bình,1
-1155,386,Huyện Tân Lạc,Tân Lạc,Huyện,29,Hòa Bình,1
-1156,385,Huyện Mai Châu,Mai Châu,Huyện,29,Hòa Bình,1
-1157,382,Huyện Lạc Sơn,Lạc Sơn,Huyện,29,Hòa Bình,1
-1158,387,Huyện Yên Thủy,Yên Thủy,Huyện,29,Hòa Bình,1
-1159,383,Huyện Lạc Thủy,Lạc Thủy,Huyện,29,Hòa Bình,1
-1323,328,Thành phố Hưng Yên,Hưng Yên,Thành phố,24,Hưng Yên,1
-1325,335,Huyện Văn Lâm,Văn Lâm,Huyện,24,Hưng Yên,1
-1326,334,Huyện Văn Giang,Văn Giang,Huyện,24,Hưng Yên,1
-1327,336,Huyện Yên Mỹ,Yên Mỹ,Huyện,24,Hưng Yên,1
-1328,331,Huyện Mỹ Hào,Mỹ Hào,Huyện,24,Hưng Yên,1
-1329,327,Huyện Ân Thi,Ân Thi,Huyện,24,Hưng Yên,1
-1330,329,Huyện Khoái Châu,Khoái Châu,Huyện,24,Hưng Yên,1
-1331,330,Huyện Kim Động,Kim Động,Huyện,24,Hưng Yên,1
-1332,333,Huyện Tiên Lữ,Tiên Lữ,Huyện,24,Hưng Yên,1
-1333,332,Huyện Phù Cừ,Phù Cừ,Huyện,24,Hưng Yên,1
-1568,87,Thành phố Nha Trang,Nha Trang,Thành phố,6,Khánh Hòa,1
-1569,83,Thành phố Cam Ranh,Cam Ranh,Thành phố,6,Khánh Hòa,1
-1570,82,Huyện Cam Lâm,Cam Lâm,Huyện,6,Khánh Hòa,1
-1571,90,Huyện Vạn Ninh,Vạn Ninh,Huyện,6,Khánh Hòa,1
-1572,88,Thị xã Ninh Hòa,Ninh Hòa,Thị xã,6,Khánh Hòa,1
-1573,86,Huyện Khánh Vĩnh,Khánh Vĩnh,Huyện,6,Khánh Hòa,1
-1574,84,Huyện Diên Khánh,Diên Khánh,Huyện,6,Khánh Hòa,1
-1575,85,Huyện Khánh Sơn,Khánh Sơn,Huyện,6,Khánh Hòa,1
-1576,89,Huyện Trường Sa,Trường Sa,Huyện,6,Khánh Hòa,1
-1899,213,Thành phố Rạch Giá,Rạch Giá,Thành phố,16,Kiên Giang,1
-1900,208,Thị xã Hà Tiên,Hà Tiên,Thị xã,16,Kiên Giang,1
-1902,211,Huyện Kiên Lương,Kiên Lương,Huyện,16,Kiên Giang,1
-1903,209,Huyện Hòn Đất,Hòn Đất,Huyện,16,Kiên Giang,1
-1904,214,Huyện Tân Hiệp,Tân Hiệp,Huyện,16,Kiên Giang,1
-1905,204,Huyện Châu Thành,Châu Thành,Huyện,16,Kiên Giang,1
-1906,206,Huyện Giồng Riềng,Giồng Riềng,Huyện,16,Kiên Giang,1
-1907,207,Huyện Gò Quao,Gò Quao,Huyện,16,Kiên Giang,1
-1908,202,Huyện An Biên,An Biên,Huyện,16,Kiên Giang,1
-1909,203,Huyện An Minh,An Minh,Huyện,16,Kiên Giang,1
-1910,216,Huyện Vĩnh Thuận,Vĩnh Thuận,Huyện,16,Kiên Giang,1
-1911,212,Huyện Phú Quốc,Phú Quốc,Huyện,16,Kiên Giang,1
-1912,210,Huyện Kiên Hải,Kiên Hải,Huyện,16,Kiên Giang,1
-1913,215,Huyện U Minh Thượng,U minh Thượng,Huyện,16,Kiên Giang,1
-1914,205,Huyện Giang Thành,Giang Thành,Huyện,16,Kiên Giang,1
-1608,577,Thành phố Kon Tum,KonTum,Thành phố,49,Kon Tum,0.97
-1610,571,Huyện Đắk Glei,Đăk Glei,Huyện,49,Kon Tum,0.929
-1611,578,Huyện Ngọc Hồi,Ngọc Hồi,Huyện,49,Kon Tum,1
-1612,573,Huyện Đắk Tô,Đăk Tô,Huyện,49,Kon Tum,0.917
-1613,575,Huyện Kon Plông,Kon Plông,Huyện,49,Kon Tum,1
-1614,576,Huyện Kon Rẫy,Kon Rẫy,Huyện,49,Kon Tum,1
-1615,572,Huyện Đắk Hà,Đăk Hà,Huyện,49,Kon Tum,0.917
-1616,579,Huyện Sa Thầy,Sa Thầy,Huyện,49,Kon Tum,1
-1617,580,Huyện Tu Mơ Rông,Tu Mơ Rông,Huyện,49,Kon Tum,1
-1618,574,Huyện Ia H' Drai,Ia H'Drai,Huyện,49,Kon Tum,0.968
-1105,659,Thành phố Lai Châu,Lai Châu,Thị xã,59,Lai Châu,Sai prefix
-1106,664,Huyện Tam Đường,Tam Đường,Huyện,59,Lai Châu,1
-1107,660,Huyện Mường Tè,Mường Tè,Huyện,59,Lai Châu,1
-1108,663,Huyện Sìn Hồ,Sìn Hồ,Huyện,59,Lai Châu,1
-1109,662,Huyện Phong Thổ,Phong Thổ,Huyện,59,Lai Châu,1
-1110,666,Huyện Than Uyên,Than Uyên,Huyện,59,Lai Châu,1
-1111,665,Huyện Tân Uyên,Tân Uyên,Huyện,59,Lai Châu,1
-1112,661,Huyện Nậm Nhùn,Nậm Nhùn,Huyện,59,Lai Châu,1
-1672,185,Thành phố Đà Lạt,Đà Lạt,Thành phố,14,Lâm Đồng,1
-1673,182,Thành phố Bảo Lộc,Bảo Lộc,Thành phố,14,Lâm Đồng,1
-1674,187,Huyện Đam Rông,Đam Rông,Huyện,14,Lâm Đồng,1
-1675,191,Huyện Lạc Dương,Lạc Dương,Huyện,14,Lâm Đồng,1
-1676,192,Huyện Lâm Hà,Lâm Hà,Huyện,14,Lâm Đồng,1
-1677,189,Huyện Đơn Dương,Đơn Dương,Huyện,14,Lâm Đồng,1
-1678,190,Huyện Đức Trọng,Đức Trọng,Huyện,14,Lâm Đồng,1
-1679,188,Huyện Di Linh,Di Linh,Huyện,14,Lâm Đồng,1
-1680,181,Huyện Bảo Lâm,Bảo Lâm,Huyện,14,Lâm Đồng,1
-1681,184,Huyện Đạ Huoai,Đạ Huoai,Huyện,14,Lâm Đồng,1
-1682,186,Huyện Đạ Tẻh,Đạ Tẻh,Huyện,14,Lâm Đồng,1
-1683,183,Huyện Cát Tiên,Cát Tiên,Huyện,14,Lâm Đồng,1
-1178,673,Thành phố Lạng Sơn,Lạng Sơn,Thành phố,60,Lạng Sơn,1
-1180,675,Huyện Tràng Định,Tràng Định,Huyện,60,Lạng Sơn,1
-1181,668,Huyện Bình Gia,Bình Gia,Huyện,60,Lạng Sơn,1
-1182,676,Huyện Văn Lãng,Văn Lãng,Huyện,60,Lạng Sơn,1
-1183,669,Huyện Cao Lộc,Cao Lộc,Huyện,60,Lạng Sơn,1
-1184,677,Huyện Văn Quan,Văn Quan,Huyện,60,Lạng Sơn,1
-1185,667,Huyện Bắc Sơn,Bắc Sơn,Huyện,60,Lạng Sơn,1
-1186,672,Huyện Hữu Lũng,Hữu Lũng,Huyện,60,Lạng Sơn,1
-1187,670,Huyện Chi Lăng,Chi Lăng,Huyện,60,Lạng Sơn,1
-1188,674,Huyện Lộc Bình,Lộc Bình,Huyện,60,Lạng Sơn,1
-1189,671,Huyện Đình Lập,Đình Lập,Huyện,60,Lạng Sơn,1
-1080,430,Thành phố Lào Cai,Lào Cai,Thành phố,34,Lào Cai,1
-1082,429,Huyện Bát Xát,Bát Xát,Huyện,34,Lào Cai,1
-1083,431,Huyện Mường Khương,Mường Khương,Huyện,34,Lào Cai,1
-1084,434,Huyện Si Ma Cai,Xi Ma Cai,Huyện,34,Lào Cai,0.933
-1085,426,Huyện Bắc Hà,Bắc Hà,Huyện,34,Lào Cai,1
-1086,427,Huyện Bảo Thắng,Bảo Thắng,Huyện,34,Lào Cai,1
-1087,428,Huyện Bảo Yên,Bảo Yên,Huyện,34,Lào Cai,1
-1088,432,Huyện Sa Pa,Sa Pa,Huyện,34,Lào Cai,1
-1089,433,Huyện Văn Bàn,Văn Bàn,Huyện,34,Lào Cai,1
-1794,114,Thành phố Tân An,Tân An,Thành phố,8,Long An,1
-1795,112,Thị xã Kiến Tường,Kiến Tường,Thị xã,8,Long An,1
-1796,115,Huyện Tân Hưng,Tân Hưng,Huyện,8,Long An,1
-1797,120,Huyện Vĩnh Hưng,Vĩnh Hưng,Huyện,8,Long An,1
-1798,113,Huyện Mộc Hóa,Mộc Hóa,Huyện,8,Long An,1
-1799,116,Huyện Tân Thạnh,Tân Thạnh,Huyện,8,Long An,1
-1800,118,Huyện Thạnh Hóa,Thạnh Hóa,Huyện,8,Long An,1
-1801,111,Huyện Đức Huệ,Đức Huệ,Huyện,8,Long An,1
-1802,110,Huyện Đức Hòa,Đức Hòa,Huyện,8,Long An,1
-1803,106,Huyện Bến Lức,Bến Lức,Huyện,8,Long An,1
-1804,119,Huyện Thủ Thừa,Thủ Thừa,Huyện,8,Long An,1
-1805,117,Huyện Tân Trụ,Tân Trụ,Huyện,8,Long An,1
-1806,107,Huyện Cần Đước,Cần Đước,Huyện,8,Long An,1
-1807,108,Huyện Cần Giuộc,Cần Giuộc,Huyện,8,Long An,1
-1808,109,Huyện Châu Thành,Châu Thành,Huyện,8,Long An,1
-1356,438,Thành phố Nam Định,Nam Định,Thành phố,35,Nam Định,1
-1358,437,Huyện Mỹ Lộc,Mỹ Lộc,Huyện,35,Nam Định,1
-1359,442,Huyện Vụ Bản,Vụ Bản,Huyện,35,Nam Định,1
-1360,444,Huyện Ý Yên,Ý Yên,Huyện,35,Nam Định,1
-1361,440,Huyện Nghĩa Hưng,Nghĩa Hưng,Huyện,35,Nam Định,1
-1362,439,Huyện Nam Trực,Nam Trực,Huyện,35,Nam Định,1
-1363,441,Huyện Trực Ninh,Trực Ninh,Huyện,35,Nam Định,1
-1364,443,Huyện Xuân Trường,Xuân Trường,Huyện,35,Nam Định,1
-1365,435,Huyện Giao Thủy,Giao Thủy,Huyện,35,Nam Định,1
-1366,436,Huyện Hải Hậu,Hải Hậu,Huyện,35,Nam Định,1
-1412,285,Thành phố Vinh,Vinh,Thành phố,20,Nghệ An,1
-1413,268,Thị xã Cửa Lò,Cửa Lò,Thị xã,20,Nghệ An,1
-1414,282,Thị xã Thái Hoà,Thái Hòa,Thị xã,20,Nghệ An,0.867
-1415,277,Huyện Quế Phong,Quế Phong,Huyện,20,Nghệ An,1
-1416,278,Huyện Quỳ Châu,Quỳ Châu,Huyện,20,Nghệ An,1
-1417,273,Huyện Kỳ Sơn,Kỳ Sơn,Huyện,20,Nghệ An,1
-1418,284,Huyện Tương Dương,Tương Dương,Huyện,20,Nghệ An,1
-1419,276,Huyện Nghĩa Đàn,Nghĩa Đàn,Huyện,20,Nghệ An,1
-1420,279,Huyện Quỳ Hợp,Quỳ Hợp,Huyện,20,Nghệ An,1
-1421,280,Huyện Quỳnh Lưu,Quỳnh Lưu,Huyện,20,Nghệ An,1
-1422,267,Huyện Con Cuông,Con Cuông,Huyện,20,Nghệ An,1
-1423,281,Huyện Tân Kỳ,Tân Kỳ,Huyện,20,Nghệ An,1
-1424,266,Huyện Anh Sơn,Anh Sơn,Huyện,20,Nghệ An,1
-1425,269,Huyện Diễn Châu,Diễn Châu,Huyện,20,Nghệ An,1
-1426,286,Huyện Yên Thành,Yên Thành,Huyện,20,Nghệ An,1
-1427,270,Huyện Đô Lương,Đô Lương,Huyện,20,Nghệ An,1
-1428,283,Huyện Thanh Chương,Thanh Chương,Huyện,20,Nghệ An,1
-1429,275,Huyện Nghi Lộc,Nghi Lộc,Huyện,20,Nghệ An,1
-1430,274,Huyện Nam Đàn,Nam Đàn,Huyện,20,Nghệ An,1
-1431,272,Huyện Hưng Nguyên,Hưng Nguyên,Huyện,20,Nghệ An,1
-1432,271,Thị xã Hoàng Mai,Hoàng Mai,Thị xã,20,Nghệ An,1
-1369,497,Thành phố Ninh Bình,Ninh Bình,Thành phố,41,Ninh Bình,1
-1370,498,Thành phố Tam Điệp,Tam Điệp,Thị xã,41,Ninh Bình,Sai prefix
-1372,496,Huyện Nho Quan,Nho Quan,Huyện,41,Ninh Bình,1
-1373,493,Huyện Gia Viễn,Gia Viễn,Huyện,41,Ninh Bình,1
-1374,494,Huyện Hoa Lư,Hoa Lư,Huyện,41,Ninh Bình,1
-1375,499,Huyện Yên Khánh,Yên Khánh,Huyện,41,Ninh Bình,1
-1376,495,Huyện Kim Sơn,Kim Sơn,Huyện,41,Ninh Bình,1
-1377,500,Huyện Yên Mô,Yên Mô,Huyện,41,Ninh Bình,1
-1582,518,Thành phố Phan Rang-Tháp Chàm,Phan Rang - Tháp Chàm,Thành phố,43,Ninh Thuận,0.967
-1584,514,Huyện Bác Ái,Bác Ái,Huyện,43,Ninh Thuận,1
-1585,517,Huyện Ninh Sơn,Ninh Sơn,Huyện,43,Ninh Thuận,1
-1586,515,Huyện Ninh Hải,Ninh Hải,Huyện,43,Ninh Thuận,1
-1587,516,Huyện Ninh Phước,Ninh Phước,Huyện,43,Ninh Thuận,1
-1588,519,Huyện Thuận Bắc,Thuận Bắc,Huyện,43,Ninh Thuận,1
-1589,520,Huyện Thuận Nam,Thuận Nam,Huyện,43,Ninh Thuận,1
-1227,512,Thành phố Việt Trì,Việt Trì,Thành phố,42,Phú Thọ,1
-1228,506,Thị xã Phú Thọ,Phú Thọ,Thị xã,42,Phú Thọ,1
-1230,502,Huyện Đoan Hùng,Đoan Hùng,Huyện,42,Phú Thọ,1
-1231,503,Huyện Hạ Hoà,Hạ Hòa,Huyện,42,Phú Thọ,0.833
-1232,509,Huyện Thanh Ba,Thanh Ba,Huyện,42,Phú Thọ,1
-1233,505,Huyện Phù Ninh,Phù Ninh,Huyện,42,Phú Thọ,1
-1234,513,Huyện Yên Lập,Yên Lập,Huyện,42,Phú Thọ,1
-1235,501,Huyện Cẩm Khê,Cẩm Khê,Huyện,42,Phú Thọ,1
-1236,507,Huyện Tam Nông,Tam Nông,Huyện,42,Phú Thọ,1
-1237,504,Huyện Lâm Thao,Lâm Thao,Huyện,42,Phú Thọ,1
-1238,510,Huyện Thanh Sơn,Thanh Sơn,Huyện,42,Phú Thọ,1
-1239,511,Huyện Thanh Thuỷ,Thanh Thủy,Huyện,42,Phú Thọ,0.875
-1240,508,Huyện Tân Sơn,Tân Sơn,Huyện,42,Phú Thọ,1
-1555,529,Thành phố Tuy Hoà,Tuy Hòa,Thành phố,44,Phú Yên,0.882
-1557,525,Thị xã Sông Cầu,Sông Cầu,Thị xã,44,Phú Yên,1
-1558,522,Huyện Đồng Xuân,Đồng Xuân,Huyện,44,Phú Yên,1
-1559,528,Huyện Tuy An,Tuy An,Huyện,44,Phú Yên,1
-1560,524,Huyện Sơn Hòa,Sơn Hòa,Huyện,44,Phú Yên,1
-1561,526,Huyện Sông Hinh,Sông Hinh,Huyện,44,Phú Yên,1
-1562,527,Huyện Tây Hoà,Tây Hòa,Huyện,44,Phú Yên,0.846
-1563,523,Huyện Phú Hoà,Phú Hòa,Huyện,44,Phú Yên,0.846
-1564,521,Huyện Đông Hòa,Đông Hòa,Huyện,44,Phú Yên,1
-1450,583,Thành Phố Đồng Hới,Đồng Hới,Thành phố,50,Quảng Bình,1
-1452,585,Huyện Minh Hóa,Minh Hóa,Huyện,50,Quảng Bình,1
-1453,588,Huyện Tuyên Hóa,Tuyên Hóa,Huyện,50,Quảng Bình,1
-1454,587,Huyện Quảng Trạch,Quảng Trạch,Huyện,50,Quảng Bình,1
-1455,582,Huyện Bố Trạch,Bố Trạch,Huyện,50,Quảng Bình,1
-1456,586,Huyện Quảng Ninh,Quảng Ninh,Huyện,50,Quảng Bình,1
-1457,584,Huyện Lệ Thủy,Lệ Thủy,Huyện,50,Quảng Bình,1
-1458,581,Thị xã Ba Đồn,Ba Đồn,Thị xã,50,Quảng Bình,1
-1502,135,Thành phố Tam Kỳ,Tam Kỳ,Thành phố,9,Quảng Nam,1
-1503,127,Thành phố Hội An,Hội An,Thành phố,9,Quảng Nam,1
-1504,136,Huyện Tây Giang,Tây Giang,Huyện,9,Quảng Nam,1
-1505,124,Huyện Đông Giang,Đông Giang,Huyện,9,Quảng Nam,1
-1506,122,Huyện Đại Lộc,Đại Lộc,Huyện,9,Quảng Nam,1
-1507,123,Thị xã Điện Bàn,Điện Bàn,Huyện,9,Quảng Nam,Sai prefix
-1508,125,Huyện Duy Xuyên,Duy Xuyên,Huyện,9,Quảng Nam,1
-1509,134,Huyện Quế Sơn,Quế Sơn,Huyện,9,Quảng Nam,1
-1510,128,Huyện Nam Giang,Nam Giang,Huyện,9,Quảng Nam,1
-1511,133,Huyện Phước Sơn,Phước Sơn,Huyện,9,Quảng Nam,1
-1512,126,Huyện Hiệp Đức,Hiệp Đức,Huyện,9,Quảng Nam,1
-1513,137,Huyện Thăng Bình,Thăng Bình,Huyện,9,Quảng Nam,1
-1514,138,Huyện Tiên Phước,Tiên Phước,Huyện,9,Quảng Nam,1
-1515,121,Huyện Bắc Trà My,Bắc Trà My,Huyện,9,Quảng Nam,1
-1516,129,Huyện Nam Trà My,Nam Trà My,Huyện,9,Quảng Nam,1
-1517,131,Huyện Núi Thành,Núi Thành,Huyện,9,Quảng Nam,1
-1518,132,Huyện Phú Ninh,Phú Ninh,Huyện,9,Quảng Nam,1
-1519,130,Huyện Nông Sơn,Nông Sơn,Huyện,9,Quảng Nam,1
-1522,452,Thành phố Quảng Ngãi,Quảng Ngãi,Thành phố,36,Quảng Ngãi,1
-1524,446,Huyện Bình Sơn,Bình Sơn,Huyện,36,Quảng Ngãi,1
-1525,457,Huyện Trà Bồng,Trà Bồng,Huyện,36,Quảng Ngãi,1
-1526,456,Huyện Tây Trà,Tây Trà,Huyện,36,Quảng Ngãi,1
-1527,455,Huyện Sơn Tịnh,Sơn Tịnh,Huyện,36,Quảng Ngãi,1
-1528,458,Huyện Tư Nghĩa,Tư Nghĩa,Huyện,36,Quảng Ngãi,1
-1529,453,Huyện Sơn Hà,Sơn Hà,Huyện,36,Quảng Ngãi,1
-1530,454,Huyện Sơn Tây,Sơn Tây,Huyện,36,Quảng Ngãi,1
-1531,449,Huyện Minh Long,Minh Long,Huyện,36,Quảng Ngãi,1
-1532,451,Huyện Nghĩa Hành,Nghĩa Hành,Huyện,36,Quảng Ngãi,1
-1533,450,Huyện Mộ Đức,Mộ Đức,Huyện,36,Quảng Ngãi,1
-1534,447,Huyện Đức Phổ,Đức Phổ,Huyện,36,Quảng Ngãi,1
-1535,445,Huyện Ba Tơ,Ba Tơ,Huyện,36,Quảng Ngãi,1
-1536,448,Huyện Lý Sơn,Lý Sơn,Huyện,36,Quảng Ngãi,1
-1193,231,Thành phố Hạ Long,Hạ Long,Thành phố,18,Quảng Ninh,1
-1194,234,Thành phố Móng Cái,Móng Cái,Thành phố,18,Quảng Ninh,1
-1195,227,Thành phố Cẩm Phả,Cẩm Phả,Thành phố,18,Quảng Ninh,1
-1196,237,Thành phố Uông Bí,Uông Bí,Thị xã,18,Quảng Ninh,Sai prefix
-1198,226,Huyện Bình Liêu,Bình Liêu,Huyện,18,Quảng Ninh,1
-1199,236,Huyện Tiên Yên,Tiên Yên,Huyện,18,Quảng Ninh,1
-1200,229,Huyện Đầm Hà,Đầm Hà,Huyện,18,Quảng Ninh,1
-1201,232,Huyện Hải Hà,Hải Hà,Huyện,18,Quảng Ninh,1
-1202,225,Huyện Ba Chẽ,Ba Chẽ,Huyện,18,Quảng Ninh,1
-1203,238,Huyện Vân Đồn,Vân Đồn,Huyện,18,Quảng Ninh,1
-1204,233,Huyện Hoành Bồ,Hoành Bồ,Huyện,18,Quảng Ninh,1
-1205,230,Thị xã Đông Triều,Đông Triều,Huyện,18,Quảng Ninh,Sai prefix
-1206,235,Thị xã Quảng Yên,Quảng Yên,Huyện,18,Quảng Ninh,Sai prefix
-1207,228,Huyện Cô Tô,Cô Tô,Huyện,18,Quảng Ninh,1
-1461,592,Thành phố Đông Hà,Đông Hà,Thành phố,51,Quảng Trị,1
-1462,596,Thị xã Quảng Trị,Quảng Trị,Thị xã,51,Quảng Trị,1
-1464,598,Huyện Vĩnh Linh,Vĩnh Linh,Huyện,51,Quảng Trị,1
-1465,595,Huyện Hướng Hóa,Hướng Hóa,Huyện,51,Quảng Trị,1
-1466,593,Huyện Gio Linh,Gio Linh,Huyện,51,Quảng Trị,1
-1467,590,Huyện Đa Krông,Đa Krông,Huyện,51,Quảng Trị,1
-1468,589,Huyện Cam Lộ,Cam Lộ,Huyện,51,Quảng Trị,1
-1469,597,Huyện Triệu Phong,Triệu Phong,Huyện,51,Quảng Trị,1
-1470,594,Huyện Hải Lăng,Hải Lăng,Huyện,51,Quảng Trị,1
-1471,591,Huyện Cồn Cỏ,Đảo Cồn cỏ,Huyện,51,Quảng Trị,0.857
-1941,567,Thành phố Sóc Trăng,Sóc Trăng,Thành phố,48,Sóc Trăng,1
-1942,560,Huyện Châu Thành,Châu Thành,Huyện,48,Sóc Trăng,1
-1943,562,Huyện Kế Sách,Kế Sách,Huyện,48,Sóc Trăng,1
-1944,564,Huyện Mỹ Tú,Mỹ Tú,Huyện,48,Sóc Trăng,1
-1945,561,Huyện Cù Lao Dung,Cù Lao Dung,Huyện,48,Sóc Trăng,1
-1946,563,Huyện Long Phú,Long Phú,Huyện,48,Sóc Trăng,1
-1947,565,Huyện Mỹ Xuyên,Mỹ Xuyên,Huyện,48,Sóc Trăng,1
-1948,566,Thị xã Ngã Năm,Ngã Năm,Huyện,48,Sóc Trăng,Sai prefix
-1949,568,Huyện Thạnh Trị,Thạnh Trị,Huyện,48,Sóc Trăng,1
-1950,570,Thị xã Vĩnh Châu,Vĩnh Châu,Huyện,48,Sóc Trăng,Sai prefix
-1951,569,Huyện Trần Đề,Trần Đề,Huyện,48,Sóc Trăng,1
-1116,620,Thành phố Sơn La,Sơn La,Thành phố,54,Sơn La,1
-1118,619,Huyện Quỳnh Nhai,Quỳnh Nhai,Huyện,54,Sơn La,1
-1119,623,Huyện Thuận Châu,Thuận Châu,Huyện,54,Sơn La,1
-1120,617,Huyện Mường La,Mường La,Huyện,54,Sơn La,1
-1121,614,Huyện Bắc Yên,Bắc Yên,Huyện,54,Sơn La,1
-1122,618,Huyện Phù Yên,Phù Yên,Huyện,54,Sơn La,1
-1123,616,Huyện Mộc Châu,Mộc Châu,Huyện,54,Sơn La,1
-1124,625,Huyện Yên Châu,Yên Châu,Huyện,54,Sơn La,1
-1125,615,Huyện Mai Sơn,Mai Sơn,Huyện,54,Sơn La,1
-1126,621,Huyện Sông Mã,Sông Mã,Huyện,54,Sơn La,1
-1127,622,Huyện Sốp Cộp,Sốp Cộp,Huyện,54,Sơn La,1
-1128,624,Huyện Vân Hồ,Vân Hồ,Huyện,54,Sơn La,1
-1703,415,Thành phố Tây Ninh,Tây Ninh,Thị xã,32,Tây Ninh,Sai prefix
-1705,413,Huyện Tân Biên,Tân Biên,Huyện,32,Tây Ninh,1
-1706,414,Huyện Tân Châu,Tân Châu,Huyện,32,Tây Ninh,1
-1707,410,Huyện Dương Minh Châu,Dương Minh Châu,Huyện,32,Tây Ninh,1
-1708,409,Huyện Châu Thành,Châu Thành,Huyện,32,Tây Ninh,1
-1709,412,Huyện Hòa Thành,Hòa Thành,Huyện,32,Tây Ninh,1
-1710,411,Huyện Gò Dầu,Gò Dầu,Huyện,32,Tây Ninh,1
-1711,408,Huyện Bến Cầu,Bến Cầu,Huyện,32,Tây Ninh,1
-1712,416,Huyện Trảng Bàng,Trảng Bàng,Huyện,32,Tây Ninh,1
-1336,363,Thành phố Thái Bình,Thái Bình,Thành phố,27,Thái Bình,1
-1338,362,Huyện Quỳnh Phụ,Quỳnh Phụ,Huyện,27,Thái Bình,1
-1339,360,Huyện Hưng Hà,Hưng Hà,Huyện,27,Thái Bình,1
-1340,359,Huyện Đông Hưng,Đông Hưng,Huyện,27,Thái Bình,1
-1341,364,Huyện Thái Thụy,Thái Thuỵ,Huyện,27,Thái Bình,0.867
-1342,365,Huyện Tiền Hải,Tiền Hải,Huyện,27,Thái Bình,1
-1343,361,Huyện Kiến Xương,Kiến Xương,Huyện,27,Thái Bình,1
-1344,366,Huyện Vũ Thư,Vũ Thư,Huyện,27,Thái Bình,1
-1164,424,Thành phố Thái Nguyên,Thái Nguyên,Thành phố,33,Thái Nguyên,1
-1165,423,Thành phố Sông Công,Sông Công,Thị xã,33,Thái Nguyên,Sai prefix
-1167,418,Huyện Định Hóa,Định Hóa,Huyện,33,Thái Nguyên,1
-1168,422,Huyện Phú Lương,Phú Lương,Huyện,33,Thái Nguyên,1
-1169,419,Huyện Đồng Hỷ,Đồng Hỷ,Huyện,33,Thái Nguyên,1
-1170,425,Huyện Võ Nhai,Võ Nhai,Huyện,33,Thái Nguyên,1
-1171,417,Huyện Đại Từ,Đại Từ,Huyện,33,Thái Nguyên,1
-1172,420,Thị xã Phổ Yên,Phổ Yên,Huyện,33,Thái Nguyên,Sai prefix
-1173,421,Huyện Phú Bình,Phú Bình,Huyện,33,Thái Nguyên,1
-1380,258,Thành phố Thanh Hóa,Thanh Hóa,Thành phố,19,Thanh Hóa,1
-1381,240,Thị xã Bỉm Sơn,Bỉm Sơn,Thị xã,19,Thanh Hóa,1
-1382,256,Thị xã Sầm Sơn,Sầm Sơn,Thị xã,19,Thanh Hóa,1
-1384,247,Huyện Mường Lát,Mường Lát,Huyện,19,Thanh Hóa,1
-1385,253,Huyện Quan Hóa,Quan Hóa,Huyện,19,Thanh Hóa,1
-1386,239,Huyện Bá Thước,Bá Thước,Huyện,19,Thanh Hóa,1
-1387,254,Huyện Quan Sơn,Quan Sơn,Huyện,19,Thanh Hóa,1
-1388,246,Huyện Lang Chánh,Lang Chánh,Huyện,19,Thanh Hóa,1
-1389,249,Huyện Ngọc Lặc,Ngọc Lặc,Huyện,19,Thanh Hóa,1
-1390,241,Huyện Cẩm Thủy,Cẩm Thủy,Huyện,19,Thanh Hóa,1
-1391,257,Huyện Thạch Thành,Thạch Thành,Huyện,19,Thanh Hóa,1
-1392,243,Huyện Hà Trung,Hà Trung,Huyện,19,Thanh Hóa,1
-1393,264,Huyện Vĩnh Lộc,Vĩnh Lộc,Huyện,19,Thanh Hóa,1
-1394,265,Huyện Yên Định,Yên Định,Huyện,19,Thanh Hóa,1
-1395,260,Huyện Thọ Xuân,Thọ Xuân,Huyện,19,Thanh Hóa,1
-1396,261,Huyện Thường Xuân,Thường Xuân,Huyện,19,Thanh Hóa,1
-1397,263,Huyện Triệu Sơn,Triệu Sơn,Huyện,19,Thanh Hóa,1
-1398,259,Huyện Thiệu Hóa,Thiệu Hóa,Huyện,19,Thanh Hóa,1
-1399,245,Huyện Hoằng Hóa,Hoằng Hóa,Huyện,19,Thanh Hóa,1
-1400,244,Huyện Hậu Lộc,Hậu Lộc,Huyện,19,Thanh Hóa,1
-1401,248,Huyện Nga Sơn,Nga Sơn,Huyện,19,Thanh Hóa,1
-1402,251,Huyện Như Xuân,Như Xuân,Huyện,19,Thanh Hóa,1
-1403,250,Huyện Như Thanh,Như Thanh,Huyện,19,Thanh Hóa,1
-1404,252,Huyện Nông Cống,Nông Cống,Huyện,19,Thanh Hóa,1
-1405,242,Huyện Đông Sơn,Đông Sơn,Huyện,19,Thanh Hóa,1
-1406,255,Huyện Quảng Xương,Quảng Xương,Huyện,19,Thanh Hóa,1
-1407,262,Huyện Tĩnh Gia,Tĩnh Gia,Huyện,19,Thanh Hóa,1
-1474,194,Thành phố Huế,Huế,Thành phố,15,Thừa Thiên Huế,1
-1476,198,Huyện Phong Điền,Phong Điền,Huyện,15,Thừa Thiên Huế,1
-1477,201,Huyện Quảng Điền,Quảng Điền,Huyện,15,Thừa Thiên Huế,1
-1478,200,Huyện Phú Vang,Phú Vang,Huyện,15,Thừa Thiên Huế,1
-1479,195,Thị xã Hương Thủy,Hương Thủy,Thị xã,15,Thừa Thiên Huế,1
-1480,196,Thị xã Hương Trà,Hương Trà,Huyện,15,Thừa Thiên Huế,Sai prefix
-1481,193,Huyện A Lưới,A Lưới,Huyện,15,Thừa Thiên Huế,1
-1482,199,Huyện Phú Lộc,Phú Lộc,Huyện,15,Thừa Thiên Huế,1
-1483,197,Huyện Nam Đông,Nam Đông,Huyện,15,Thừa Thiên Huế,1
-1815,356,Thành phố Mỹ Tho,Mỹ Tho,Thành phố,26,Tiền Giang,1
-1816,352,Thị xã Gò Công,Gò Công,Thị xã,26,Tiền Giang,1
-1817,349,Thị xã Cai Lậy,Cai Lậy,Thị xã,26,Tiền Giang,1
-1818,358,Huyện Tân Phước,Tân Phước,Huyện,26,Tiền Giang,1
-1819,348,Huyện Cái Bè,Cái Bè,Huyện,26,Tiền Giang,1
-1820,355,Huyện Cai Lậy,Huyện Cai Lậy,Huyện,26,Tiền Giang,Sai prefix
-1821,350,Huyện Châu Thành,Châu Thành,Huyện,26,Tiền Giang,1
-1822,351,Huyện Chợ Gạo,Chợ Gạo,Huyện,26,Tiền Giang,1
-1823,354,Huyện Gò Công Tây,Gò Công Tây,Huyện,26,Tiền Giang,1
-1824,353,Huyện Gò Công Đông,Gò Công Đông,Huyện,26,Tiền Giang,1
-1825,357,Huyện Tân Phú Đông,Tân Phú Đông,Huyện,26,Tiền Giang,1
-1842,606,Thành phố Trà Vinh,Trà Vinh,Thành phố,52,Trà Vinh,1
-1844,599,Huyện Càng Long,Càng Long,Huyện,52,Trà Vinh,1
-1845,600,Huyện Cầu Kè,Cầu Kè,Huyện,52,Trà Vinh,1
-1846,604,Huyện Tiểu Cần,Tiểu Cần,Huyện,52,Trà Vinh,1
-1847,602,Huyện Châu Thành,Châu Thành,Huyện,52,Trà Vinh,1
-1848,601,Huyện Cầu Ngang,Cầu Ngang,Huyện,52,Trà Vinh,1
-1849,605,Huyện Trà Cú,Trà Cú,Huyện,52,Trà Vinh,1
-1850,603,Huyện Duyên Hải,Duyên Hải,Huyện,52,Trà Vinh,1
-1851,603,Thị xã Duyên Hải,Duyên Hải,Huyện,52,Trà Vinh,Sai prefix
-1070,647,Thành phố Tuyên Quang,Tuyên Quang,Thành phố,57,Tuyên Quang,1
-1071,644,Huyện Lâm Bình,Lâm Bình,Huyện,57,Tuyên Quang,1
-1072,645,Huyện Nà Hang,Na Hang,Huyện,57,Tuyên Quang,0.923
-1073,642,Huyện Chiêm Hóa,Chiêm Hóa,Huyện,57,Tuyên Quang,1
-1074,643,Huyện Hàm Yên,Hàm Yên,Huyện,57,Tuyên Quang,1
-1075,648,Huyện Yên Sơn,Yên Sơn,Huyện,57,Tuyên Quang,1
-1076,646,Huyện Sơn Dương,Sơn Dương,Huyện,57,Tuyên Quang,1
-1855,491,Thành phố Vĩnh Long,Vĩnh Long,Thành phố,40,Vĩnh Long,1
-1857,487,Huyện Long Hồ,Long Hồ,Huyện,40,Vĩnh Long,1
-1858,488,Huyện Mang Thít,Mang Thít,Huyện,40,Vĩnh Long,1
-1859,492,Huyện  Vũng Liêm,Vũng Liêm,Huyện,40,Vĩnh Long,1
-1860,489,Huyện Tam Bình,Tam Bình,Huyện,40,Vĩnh Long,1
-1861,485,Thị xã Bình Minh,Bình Minh,Huyện,40,Vĩnh Long,Sai prefix
-1862,490,Huyện Trà Ôn,Trà Ôn,Huyện,40,Vĩnh Long,1
-1863,486,Huyện Bình Tân,Bình Tân,Quận,40,Vĩnh Long,Sai prefix
-1243,406,Thành phố Vĩnh Yên,Vĩnh Yên,Thành phố,31,Vĩnh Phúc,1
-1244,401,Thị xã Phúc Yên,Phúc Yên,Thị xã,31,Vĩnh Phúc,1
-1246,400,Huyện Lập Thạch,Lập Thạch,Huyện,31,Vĩnh Phúc,1
-1247,404,Huyện Tam Dương,Tam Dương,Huyện,31,Vĩnh Phúc,1
-1248,403,Huyện Tam Đảo,Tam Đảo,Huyện,31,Vĩnh Phúc,1
-1249,399,Huyện Bình Xuyên,Bình Xuyên,Huyện,31,Vĩnh Phúc,1
-1251,407,Huyện Yên Lạc,Yên Lạc,Huyện,31,Vĩnh Phúc,1
-1252,405,Huyện Vĩnh Tường,Vĩnh Tường,Huyện,31,Vĩnh Phúc,1
-1253,402,Huyện Sông Lô,Sông Lô,Huyện,31,Vĩnh Phúc,1
-1132,640,Thành phố Yên Bái,Yên Bái,Thành phố,56,Yên Bái,1
-1133,635,Thị xã Nghĩa Lộ,Nghĩa Lộ,Thị xã,56,Yên Bái,1
-1135,633,Huyện Lục Yên,Lục Yên,Huyện,56,Yên Bái,1
-1136,639,Huyện Văn Yên,Văn Yên,Huyện,56,Yên Bái,1
-1137,634,Huyện Mù Căng Chải,Mù Cang Chải,Huyện,56,Yên Bái,0.944
-1138,637,Huyện Trấn Yên,Trấn Yên,Huyện,56,Yên Bái,1
-1139,636,Huyện Trạm Tấu,Trạm Tấu,Huyện,56,Yên Bái,1
-1140,638,Huyện Văn Chấn,Văn Chấn,Huyện,56,Yên Bái,1
-1141,641,Huyện Yên Bình,Yên Bình,Huyện,56,Yên Bái,1
+DB16_ID,AS_ID,DB16_NAME,AS_NAME,PREFIX,P_ID,P_NAME,NOTE,
+1043,697,Huyện Bảo Lạc,Bảo Lạc,Huyện,63,Cao Bằng,1,
+1042,698,Huyện Bảo Lâm,Bảo Lâm,Huyện,63,Cao Bằng,1,
+1040,699,Thành phố Cao Bằng,Cao Bằng,Thị xã,63,Cao Bằng,Sai prefix,DONE
+1048,700,Huyện Hạ Lang,Hạ Lang,Huyện,63,Cao Bằng,1,
+1045,701,Huyện Hà Quảng,Hà Quảng,Huyện,63,Cao Bằng,1,
+1051,702,Huyện Hoà An,Hòa An,Huyện,63,Cao Bằng,0.833,No
+1052,703,Huyện Nguyên Bình,Nguyên Bình,Huyện,63,Cao Bằng,1,
+1050,704,Huyện Phục Hoà,Phục Hòa,Huyện,63,Cao Bằng,0.857,no
+1049,705,Huyện Quảng Uyên,Quảng Uyên,Huyện,63,Cao Bằng,1,
+1053,706,Huyện Thạch An,Thạch An,Huyện,63,Cao Bằng,1,
+1044,707,Huyện Thông Nông,Thông Nông,Huyện,63,Cao Bằng,1,
+1046,708,Huyện Trà Lĩnh,Trà Lĩnh,Huyện,63,Cao Bằng,1,
+1047,709,Huyện Trùng Khánh,Trùng Khánh,Huyện,63,Cao Bằng,1,
+1061,689,Huyện Ba Bể,Ba Bể,Huyện,62,Bắc Kạn,1,
+1058,690,Thành phố Bắc Kạn,Bắc Kạn,Thị xã,62,Bắc Kạn,Sai prefix,DONE
+1063,691,Huyện Bạch Thông,Bạch Thông,Huyện,62,Bắc Kạn,1,
+1064,692,Huyện Chợ Đồn,Chợ Đồn,Huyện,62,Bắc Kạn,1,
+1065,693,Huyện Chợ Mới,Chợ Mới,Huyện,62,Bắc Kạn,1,
+1066,694,Huyện Na Rì,Na Rì,Huyện,62,Bắc Kạn,1,
+1062,695,Huyện Ngân Sơn,Ngân Sơn,Huyện,62,Bắc Kạn,1,
+1060,696,Huyện Pác Nặm,Pác Nặm,Huyện,62,Bắc Kạn,1,
+1031,678,Huyện Bắc Mê,Bắc Mê,Huyện,61,Hà Giang,1,
+1034,679,Huyện Bắc Quang,Bắc Quang,Huyện,61,Hà Giang,1,
+1026,680,Huyện Đồng Văn,Đồng Văn,Huyện,61,Hà Giang,1,
+1024,681,Thành phố Hà Giang,Hà Giang,Thành phố,61,Hà Giang,1,
+1032,682,Huyện Hoàng Su Phì,Hoàng Su Phì,Huyện,61,Hà Giang,1,
+1027,683,Huyện Mèo Vạc,Mèo Vạc,Huyện,61,Hà Giang,1,
+1029,684,Huyện Quản Bạ,Quản Bạ,Huyện,61,Hà Giang,1,
+1035,685,Huyện Quang Bình,Quang Bình,Huyện,61,Hà Giang,1,
+1030,686,Huyện Vị Xuyên,Vị Xuyên,Huyện,61,Hà Giang,1,
+1033,687,Huyện Xín Mần,Xín Mần,Huyện,61,Hà Giang,1,
+1028,688,Huyện Yên Minh,Yên Minh,Huyện,61,Hà Giang,1,
+1185,667,Huyện Bắc Sơn,Bắc Sơn,Huyện,60,Lạng Sơn,1,
+1181,668,Huyện Bình Gia,Bình Gia,Huyện,60,Lạng Sơn,1,
+1183,669,Huyện Cao Lộc,Cao Lộc,Huyện,60,Lạng Sơn,1,
+1187,670,Huyện Chi Lăng,Chi Lăng,Huyện,60,Lạng Sơn,1,
+1189,671,Huyện Đình Lập,Đình Lập,Huyện,60,Lạng Sơn,1,
+1186,672,Huyện Hữu Lũng,Hữu Lũng,Huyện,60,Lạng Sơn,1,
+1178,673,Thành phố Lạng Sơn,Lạng Sơn,Thành phố,60,Lạng Sơn,1,
+1188,674,Huyện Lộc Bình,Lộc Bình,Huyện,60,Lạng Sơn,1,
+1180,675,Huyện Tràng Định,Tràng Định,Huyện,60,Lạng Sơn,1,
+1182,676,Huyện Văn Lãng,Văn Lãng,Huyện,60,Lạng Sơn,1,
+1184,677,Huyện Văn Quan,Văn Quan,Huyện,60,Lạng Sơn,1,
+1105,659,Thành phố Lai Châu,Lai Châu,Thị xã,59,Lai Châu,Sai prefix,Done
+1107,660,Huyện Mường Tè,Mường Tè,Huyện,59,Lai Châu,1,
+1112,661,Huyện Nậm Nhùn,Nậm Nhùn,Huyện,59,Lai Châu,1,
+1109,662,Huyện Phong Thổ,Phong Thổ,Huyện,59,Lai Châu,1,
+1108,663,Huyện Sìn Hồ,Sìn Hồ,Huyện,59,Lai Châu,1,
+1106,664,Huyện Tam Đường,Tam Đường,Huyện,59,Lai Châu,1,
+1111,665,Huyện Tân Uyên,Tân Uyên,Huyện,59,Lai Châu,1,
+1110,666,Huyện Than Uyên,Than Uyên,Huyện,59,Lai Châu,1,
+1100,649,Huyện Điện Biên,Điện Biên,Huyện,58,Điện Biên,1,
+1101,650,Huyện Điện Biên Đông,Điện Biên Đông,Huyện,58,Điện Biên,1,
+1094,651,Thành phố Điện Biên Phủ,Điện Biên Phủ,Thành phố,58,Điện Biên,1,
+1102,652,Huyện Mường Ảng,Mường Ảng,Huyện,58,Điện Biên,1,
+1097,653,Huyện Mường Chà,Mường Chà,Huyện,58,Điện Biên,1,
+1095,654,Thị Xã Mường Lay,Mường Lay,Thị xã,58,Điện Biên,1,
+1096,655,Huyện Mường Nhé,Mường Nhé,Huyện,58,Điện Biên,1,
+1103,656,Huyện Nậm Pồ,Nậm Pồ,Huyện,58,Điện Biên,1,
+1098,657,Huyện Tủa Chùa,Tủa Chùa,Huyện,58,Điện Biên,1,
+1099,658,Huyện Tuần Giáo,Tuần Giáo,Huyện,58,Điện Biên,1,
+1073,642,Huyện Chiêm Hóa,Chiêm Hóa,Huyện,57,Tuyên Quang,1,
+1074,643,Huyện Hàm Yên,Hàm Yên,Huyện,57,Tuyên Quang,1,
+1071,644,Huyện Lâm Bình,Lâm Bình,Huyện,57,Tuyên Quang,1,
+1072,645,Huyện Nà Hang,Na Hang,Huyện,57,Tuyên Quang,0.923,Done
+1076,646,Huyện Sơn Dương,Sơn Dương,Huyện,57,Tuyên Quang,1,
+1070,647,Thành phố Tuyên Quang,Tuyên Quang,Thành phố,57,Tuyên Quang,1,
+1075,648,Huyện Yên Sơn,Yên Sơn,Huyện,57,Tuyên Quang,1,
+1135,633,Huyện Lục Yên,Lục Yên,Huyện,56,Yên Bái,1,
+1137,634,Huyện Mù Căng Chải,Mù Cang Chải,Huyện,56,Yên Bái,0.944,Done
+1133,635,Thị xã Nghĩa Lộ,Nghĩa Lộ,Thị xã,56,Yên Bái,1,
+1139,636,Huyện Trạm Tấu,Trạm Tấu,Huyện,56,Yên Bái,1,
+1138,637,Huyện Trấn Yên,Trấn Yên,Huyện,56,Yên Bái,1,
+1140,638,Huyện Văn Chấn,Văn Chấn,Huyện,56,Yên Bái,1,
+1136,639,Huyện Văn Yên,Văn Yên,Huyện,56,Yên Bái,1,
+1132,640,Thành phố Yên Bái,Yên Bái,Thành phố,56,Yên Bái,1,
+1141,641,Huyện Yên Bình,Yên Bình,Huyện,56,Yên Bái,1,
+1954,626,Thành phố Bạc Liêu,Bạc Liêu,Thành phố,55,Bạc Liêu,1,
+1960,627,Huyện Đông Hải,Đông Hải,Huyện,55,Bạc Liêu,1,
+1959,628,Thị xã Giá Rai,Giá Rai,Huyện,55,Bạc Liêu,Sai prefix,Done
+1961,629,Huyện Hoà Bình,Hòa Bình,Huyện,55,Bạc Liêu,0.857,no
+1956,630,Huyện Hồng Dân,Hồng Dân,Huyện,55,Bạc Liêu,1,
+1957,631,Huyện Phước Long,Phước Long,Huyện,55,Bạc Liêu,1,
+1958,632,Huyện Vĩnh Lợi,Vĩnh Lợi,Huyện,55,Bạc Liêu,1,
+1121,614,Huyện Bắc Yên,Bắc Yên,Huyện,54,Sơn La,1,
+1125,615,Huyện Mai Sơn,Mai Sơn,Huyện,54,Sơn La,1,
+1123,616,Huyện Mộc Châu,Mộc Châu,Huyện,54,Sơn La,1,
+1120,617,Huyện Mường La,Mường La,Huyện,54,Sơn La,1,
+1122,618,Huyện Phù Yên,Phù Yên,Huyện,54,Sơn La,1,
+1118,619,Huyện Quỳnh Nhai,Quỳnh Nhai,Huyện,54,Sơn La,1,
+1116,620,Thành phố Sơn La,Sơn La,Thành phố,54,Sơn La,1,
+1126,621,Huyện Sông Mã,Sông Mã,Huyện,54,Sơn La,1,
+1127,622,Huyện Sốp Cộp,Sốp Cộp,Huyện,54,Sơn La,1,
+1119,623,Huyện Thuận Châu,Thuận Châu,Huyện,54,Sơn La,1,
+1128,624,Huyện Vân Hồ,Vân Hồ,Huyện,54,Sơn La,1,
+1124,625,Huyện Yên Châu,Yên Châu,Huyện,54,Sơn La,1,
+1933,607,Huyện Châu Thành,Châu Thành,Huyện,53,Hậu Giang,1,
+1932,608,Huyện Châu Thành A,Châu Thành A,Huyện,53,Hậu Giang,1,
+1936,609,Huyện Long Mỹ,Long Mỹ,Huyện,53,Hậu Giang,1,
+1937,609,Thị xã Long Mỹ,Long Mỹ,Huyện,53,Hậu Giang,Sai prefix,Done
+1931,610,Thị xã Ngã Bảy,Ngã Bảy,Thị xã,53,Hậu Giang,1,
+1934,611,Huyện Phụng Hiệp,Phụng Hiệp,Huyện,53,Hậu Giang,1,
+1930,612,Thành phố Vị Thanh,Vị Thanh,Thành phố,53,Hậu Giang,1,
+1935,613,Huyện Vị Thuỷ,Vị Thủy,Huyện,53,Hậu Giang,0.846,no
+1844,599,Huyện Càng Long,Càng Long,Huyện,52,Trà Vinh,1,
+1845,600,Huyện Cầu Kè,Cầu Kè,Huyện,52,Trà Vinh,1,
+1848,601,Huyện Cầu Ngang,Cầu Ngang,Huyện,52,Trà Vinh,1,
+1847,602,Huyện Châu Thành,Châu Thành,Huyện,52,Trà Vinh,1,
+1850,603,Huyện Duyên Hải,Duyên Hải,Huyện,52,Trà Vinh,1,
+1851,603,Thị xã Duyên Hải,Duyên Hải,Huyện,52,Trà Vinh,Sai prefix,Done
+1846,604,Huyện Tiểu Cần,Tiểu Cần,Huyện,52,Trà Vinh,1,
+1849,605,Huyện Trà Cú,Trà Cú,Huyện,52,Trà Vinh,1,
+1842,606,Thành phố Trà Vinh,Trà Vinh,Thành phố,52,Trà Vinh,1,
+1468,589,Huyện Cam Lộ,Cam Lộ,Huyện,51,Quảng Trị,1,
+1467,590,Huyện Đa Krông,Đa Krông,Huyện,51,Quảng Trị,1,
+1471,591,Huyện Cồn Cỏ,Đảo Cồn cỏ,Huyện,51,Quảng Trị,0.857,Done
+1461,592,Thành phố Đông Hà,Đông Hà,Thành phố,51,Quảng Trị,1,
+1466,593,Huyện Gio Linh,Gio Linh,Huyện,51,Quảng Trị,1,
+1470,594,Huyện Hải Lăng,Hải Lăng,Huyện,51,Quảng Trị,1,
+1465,595,Huyện Hướng Hóa,Hướng Hóa,Huyện,51,Quảng Trị,1,
+1462,596,Thị xã Quảng Trị,Quảng Trị,Thị xã,51,Quảng Trị,1,
+1469,597,Huyện Triệu Phong,Triệu Phong,Huyện,51,Quảng Trị,1,
+1464,598,Huyện Vĩnh Linh,Vĩnh Linh,Huyện,51,Quảng Trị,1,
+1458,581,Thị xã Ba Đồn,Ba Đồn,Thị xã,50,Quảng Bình,1,
+1455,582,Huyện Bố Trạch,Bố Trạch,Huyện,50,Quảng Bình,1,
+1450,583,Thành Phố Đồng Hới,Đồng Hới,Thành phố,50,Quảng Bình,1,
+1457,584,Huyện Lệ Thủy,Lệ Thủy,Huyện,50,Quảng Bình,1,
+1452,585,Huyện Minh Hóa,Minh Hóa,Huyện,50,Quảng Bình,1,
+1456,586,Huyện Quảng Ninh,Quảng Ninh,Huyện,50,Quảng Bình,1,
+1454,587,Huyện Quảng Trạch,Quảng Trạch,Huyện,50,Quảng Bình,1,
+1453,588,Huyện Tuyên Hóa,Tuyên Hóa,Huyện,50,Quảng Bình,1,
+1610,571,Huyện Đắk Glei,Đăk Glei,Huyện,49,Kon Tum,0.929,Done
+1615,572,Huyện Đắk Hà,Đăk Hà,Huyện,49,Kon Tum,0.917,
+1612,573,Huyện Đắk Tô,Đăk Tô,Huyện,49,Kon Tum,0.917,
+1618,574,Huyện Ia H' Drai,Ia H'Drai,Huyện,49,Kon Tum,0.968,
+1613,575,Huyện Kon Plông,Kon Plông,Huyện,49,Kon Tum,1,
+1614,576,Huyện Kon Rẫy,Kon Rẫy,Huyện,49,Kon Tum,1,
+1608,577,Thành phố Kon Tum,KonTum,Thành phố,49,Kon Tum,0.97,
+1611,578,Huyện Ngọc Hồi,Ngọc Hồi,Huyện,49,Kon Tum,1,
+1616,579,Huyện Sa Thầy,Sa Thầy,Huyện,49,Kon Tum,1,
+1617,580,Huyện Tu Mơ Rông,Tu Mơ Rông,Huyện,49,Kon Tum,1,
+1942,560,Huyện Châu Thành,Châu Thành,Huyện,48,Sóc Trăng,1,
+1945,561,Huyện Cù Lao Dung,Cù Lao Dung,Huyện,48,Sóc Trăng,1,
+1943,562,Huyện Kế Sách,Kế Sách,Huyện,48,Sóc Trăng,1,
+1946,563,Huyện Long Phú,Long Phú,Huyện,48,Sóc Trăng,1,
+1944,564,Huyện Mỹ Tú,Mỹ Tú,Huyện,48,Sóc Trăng,1,
+1947,565,Huyện Mỹ Xuyên,Mỹ Xuyên,Huyện,48,Sóc Trăng,1,
+1948,566,Thị xã Ngã Năm,Ngã Năm,Huyện,48,Sóc Trăng,Sai prefix,
+1941,567,Thành phố Sóc Trăng,Sóc Trăng,Thành phố,48,Sóc Trăng,1,
+1949,568,Huyện Thạnh Trị,Thạnh Trị,Huyện,48,Sóc Trăng,1,
+1951,569,Huyện Trần Đề,Trần Đề,Huyện,48,Sóc Trăng,1,
+1950,570,Thị xã Vĩnh Châu,Vĩnh Châu,Huyện,48,Sóc Trăng,Sai prefix,
+1866,548,Thành phố Cao Lãnh,Cao Lãnh,Thành phố,47,Đồng Tháp,1,
+1873,548,Huyện Cao Lãnh,Cao Lãnh,Thành phố,47,Đồng Tháp,Sai prefix,
+1877,549,Huyện Châu Thành,Châu Thành,Huyện,47,Đồng Tháp,1,
+1868,550,Thị xã Hồng Ngự,Hồng Ngự,Thị xã,47,Đồng Tháp,1,
+1870,550,Huyện Hồng Ngự,Hồng Ngự,Thị xã,47,Đồng Tháp,Sai prefix,
+1876,553,Huyện Lai Vung,Lai Vung,Huyện,47,Đồng Tháp,1,
+1875,554,Huyện Lấp Vò,Lấp Vò,Huyện,47,Đồng Tháp,1,
+1867,555,Thành phố Sa Đéc,Sa Đéc,Thị xã,47,Đồng Tháp,Sai prefix,
+1871,556,Huyện Tam Nông,Tam Nông,Huyện,47,Đồng Tháp,1,
+1869,557,Huyện Tân Hồng,Tân Hồng,Huyện,47,Đồng Tháp,1,
+1874,558,Huyện Thanh Bình,Thanh Bình,Huyện,47,Đồng Tháp,1,
+1872,559,Huyện Tháp Mười,Tháp Mười,Huyện,47,Đồng Tháp,1,
+1446,536,Huyện Cẩm Xuyên,Cẩm Xuyên,Huyện,46,Hà Tĩnh,1,
+1443,537,Huyện Can Lộc,Can Lộc,Huyện,46,Hà Tĩnh,1,
+1440,538,Huyện Đức Thọ,Đức Thọ,Huyện,46,Hà Tĩnh,1,
+1436,539,Thành phố Hà Tĩnh,Hà Tĩnh,Thành phố,46,Hà Tĩnh,1,
+1437,540,Thị xã Hồng Lĩnh,Hồng Lĩnh,Thị xã,46,Hà Tĩnh,1,
+1444,541,Huyện Hương Khê,Hương Khê,Huyện,46,Hà Tĩnh,1,
+1439,542,Huyện Hương Sơn,Hương Sơn,Huyện,46,Hà Tĩnh,1,
+1447,543,Huyện Kỳ Anh,Kỳ Anh,Huyện,46,Hà Tĩnh,1,
+1449,543,Thị xã Kỳ Anh,Kỳ Anh,Huyện,46,Hà Tĩnh,Sai prefix,
+1448,544,Huyện Lộc Hà,Lộc Hà,Huyện,46,Hà Tĩnh,1,
+1442,545,Huyện Nghi Xuân,Nghi Xuân,Huyện,46,Hà Tĩnh,1,
+1445,546,Huyện Thạch Hà,Thạch Hà,Huyện,46,Hà Tĩnh,1,
+1441,547,Huyện Vũ Quang,Vũ Quang,Huyện,46,Hà Tĩnh,1,
+1352,530,Huyện Bình Lục,Bình Lục,Huyện,45,Hà Nam,1,
+1349,531,Huyện Duy Tiên,Duy Tiên,Huyện,45,Hà Nam,1,
+1350,532,Huyện Kim Bảng,Kim Bảng,Huyện,45,Hà Nam,1,
+1353,533,Huyện Lý Nhân,Lý Nhân,Huyện,45,Hà Nam,1,
+1347,534,Thành phố Phủ Lý,Phủ Lý,Thành phố,45,Hà Nam,1,
+1351,535,Huyện Thanh Liêm,Thanh Liêm,Huyện,45,Hà Nam,1,
+1564,521,Huyện Đông Hòa,Đông Hòa,Huyện,44,Phú Yên,1,
+1558,522,Huyện Đồng Xuân,Đồng Xuân,Huyện,44,Phú Yên,1,
+1563,523,Huyện Phú Hoà,Phú Hòa,Huyện,44,Phú Yên,0.846,
+1560,524,Huyện Sơn Hòa,Sơn Hòa,Huyện,44,Phú Yên,1,
+1557,525,Thị xã Sông Cầu,Sông Cầu,Thị xã,44,Phú Yên,1,
+1561,526,Huyện Sông Hinh,Sông Hinh,Huyện,44,Phú Yên,1,
+1562,527,Huyện Tây Hoà,Tây Hòa,Huyện,44,Phú Yên,0.846,
+1559,528,Huyện Tuy An,Tuy An,Huyện,44,Phú Yên,1,
+1555,529,Thành phố Tuy Hoà,Tuy Hòa,Thành phố,44,Phú Yên,0.882,
+1584,514,Huyện Bác Ái,Bác Ái,Huyện,43,Ninh Thuận,1,
+1586,515,Huyện Ninh Hải,Ninh Hải,Huyện,43,Ninh Thuận,1,
+1587,516,Huyện Ninh Phước,Ninh Phước,Huyện,43,Ninh Thuận,1,
+1585,517,Huyện Ninh Sơn,Ninh Sơn,Huyện,43,Ninh Thuận,1,
+1582,518,Thành phố Phan Rang-Tháp Chàm,Phan Rang - Tháp Chàm,Thành phố,43,Ninh Thuận,0.967,
+1588,519,Huyện Thuận Bắc,Thuận Bắc,Huyện,43,Ninh Thuận,1,
+1589,520,Huyện Thuận Nam,Thuận Nam,Huyện,43,Ninh Thuận,1,
+1235,501,Huyện Cẩm Khê,Cẩm Khê,Huyện,42,Phú Thọ,1,
+1230,502,Huyện Đoan Hùng,Đoan Hùng,Huyện,42,Phú Thọ,1,
+1231,503,Huyện Hạ Hoà,Hạ Hòa,Huyện,42,Phú Thọ,0.833,
+1237,504,Huyện Lâm Thao,Lâm Thao,Huyện,42,Phú Thọ,1,
+1233,505,Huyện Phù Ninh,Phù Ninh,Huyện,42,Phú Thọ,1,
+1228,506,Thị xã Phú Thọ,Phú Thọ,Thị xã,42,Phú Thọ,1,
+1236,507,Huyện Tam Nông,Tam Nông,Huyện,42,Phú Thọ,1,
+1240,508,Huyện Tân Sơn,Tân Sơn,Huyện,42,Phú Thọ,1,
+1232,509,Huyện Thanh Ba,Thanh Ba,Huyện,42,Phú Thọ,1,
+1238,510,Huyện Thanh Sơn,Thanh Sơn,Huyện,42,Phú Thọ,1,
+1239,511,Huyện Thanh Thuỷ,Thanh Thủy,Huyện,42,Phú Thọ,0.875,
+1227,512,Thành phố Việt Trì,Việt Trì,Thành phố,42,Phú Thọ,1,
+1234,513,Huyện Yên Lập,Yên Lập,Huyện,42,Phú Thọ,1,
+1373,493,Huyện Gia Viễn,Gia Viễn,Huyện,41,Ninh Bình,1,
+1374,494,Huyện Hoa Lư,Hoa Lư,Huyện,41,Ninh Bình,1,
+1376,495,Huyện Kim Sơn,Kim Sơn,Huyện,41,Ninh Bình,1,
+1372,496,Huyện Nho Quan,Nho Quan,Huyện,41,Ninh Bình,1,
+1369,497,Thành phố Ninh Bình,Ninh Bình,Thành phố,41,Ninh Bình,1,
+1370,498,Thành phố Tam Điệp,Tam Điệp,Thị xã,41,Ninh Bình,Sai prefix,
+1375,499,Huyện Yên Khánh,Yên Khánh,Huyện,41,Ninh Bình,1,
+1377,500,Huyện Yên Mô,Yên Mô,Huyện,41,Ninh Bình,1,
+1861,485,Thị xã Bình Minh,Bình Minh,Huyện,40,Vĩnh Long,Sai prefix,
+1863,486,Huyện Bình Tân,Bình Tân,Quận,40,Vĩnh Long,Sai prefix,
+1857,487,Huyện Long Hồ,Long Hồ,Huyện,40,Vĩnh Long,1,
+1858,488,Huyện Mang Thít,Mang Thít,Huyện,40,Vĩnh Long,1,
+1860,489,Huyện Tam Bình,Tam Bình,Huyện,40,Vĩnh Long,1,
+1862,490,Huyện Trà Ôn,Trà Ôn,Huyện,40,Vĩnh Long,1,
+1855,491,Thành phố Vĩnh Long,Vĩnh Long,Thành phố,40,Vĩnh Long,1,
+1859,492,Huyện  Vũng Liêm,Vũng Liêm,Huyện,40,Vĩnh Long,1,
+1964,476,Thành phố Cà Mau,Cà Mau,Thành phố,39,Cà Mau,1,
+1969,477,Huyện Cái Nước,Cái Nước,Huyện,39,Cà Mau,1,
+1970,478,Huyện Đầm Dơi,Đầm Dơi,Huyện,39,Cà Mau,1,
+1971,479,Huyện Năm Căn,Năm Căn,Huyện,39,Cà Mau,1,
+1973,480,Huyện Ngọc Hiển,Ngọc Hiển,Huyện,39,Cà Mau,1,
+1972,481,Huyện Phú Tân,Phú Tân,Huyện,39,Cà Mau,1,
+1967,482,Huyện Thới Bình,Thới Bình,Huyện,39,Cà Mau,1,
+1968,483,Huyện Trần Văn Thời,Trần Văn Thời,Huyện,39,Cà Mau,1,
+1966,484,Huyện U Minh,U Minh,Huyện,39,Cà Mau,1,
+1662,468,Huyện Cư Jút,Cư Jút,Huyện,38,Đắk Nông,1,
+1661,469,Huyện Đăk Glong,Dăk GLong,Huyện,38,Đắk Nông,0.933,
+1663,470,Huyện Đắk Mil,Dăk Mil,Huyện,38,Đắk Nông,0.846,
+1666,471,Huyện Đắk R'Lấp,Dăk R'Lấp,Huyện,38,Đắk Nông,0.867,
+1665,472,Huyện Đắk Song,Dăk Song,Huyện,38,Đắk Nông,0.857,
+1660,473,Thị xã Gia Nghĩa,Gia Nghĩa,Thị xã,38,Đắk Nông,1,
+1664,474,Huyện Krông Nô,Krông Nô,Huyện,38,Đắk Nông,1,
+1667,475,Huyện Tuy Đức,Tuy Đức,Huyện,38,Đắk Nông,1,
+1836,459,Huyện Ba Tri,Ba Tri,Huyện,37,Bến Tre,1,
+1829,460,Thành phố Bến Tre,Bến Tre,Thành phố,37,Bến Tre,1,
+1835,461,Huyện Bình Đại,Bình Đại,Huyện,37,Bến Tre,1,
+1831,462,Huyện Châu Thành,Châu Thành,Huyện,37,Bến Tre,1,
+1832,463,Huyện Chợ Lách,Chợ Lách,Huyện,37,Bến Tre,1,
+1834,464,Huyện Giồng Trôm,Giồng Trôm,Huyện,37,Bến Tre,1,
+1838,465,Huyện Mỏ Cày Bắc,Mỏ Cày Bắc,Huyện,37,Bến Tre,1,
+1833,466,Huyện Mỏ Cày Nam,Mỏ Cày Nam,Huyện,37,Bến Tre,1,
+1837,467,Huyện Thạnh Phú,Thạnh Phú,Huyện,37,Bến Tre,1,
+1535,445,Huyện Ba Tơ,Ba Tơ,Huyện,36,Quảng Ngãi,1,
+1524,446,Huyện Bình Sơn,Bình Sơn,Huyện,36,Quảng Ngãi,1,
+1534,447,Huyện Đức Phổ,Đức Phổ,Huyện,36,Quảng Ngãi,1,
+1536,448,Huyện Lý Sơn,Lý Sơn,Huyện,36,Quảng Ngãi,1,
+1531,449,Huyện Minh Long,Minh Long,Huyện,36,Quảng Ngãi,1,
+1533,450,Huyện Mộ Đức,Mộ Đức,Huyện,36,Quảng Ngãi,1,
+1532,451,Huyện Nghĩa Hành,Nghĩa Hành,Huyện,36,Quảng Ngãi,1,
+1522,452,Thành phố Quảng Ngãi,Quảng Ngãi,Thành phố,36,Quảng Ngãi,1,
+1529,453,Huyện Sơn Hà,Sơn Hà,Huyện,36,Quảng Ngãi,1,
+1530,454,Huyện Sơn Tây,Sơn Tây,Huyện,36,Quảng Ngãi,1,
+1527,455,Huyện Sơn Tịnh,Sơn Tịnh,Huyện,36,Quảng Ngãi,1,
+1526,456,Huyện Tây Trà,Tây Trà,Huyện,36,Quảng Ngãi,1,
+1525,457,Huyện Trà Bồng,Trà Bồng,Huyện,36,Quảng Ngãi,1,
+1528,458,Huyện Tư Nghĩa,Tư Nghĩa,Huyện,36,Quảng Ngãi,1,
+1365,435,Huyện Giao Thủy,Giao Thủy,Huyện,35,Nam Định,1,
+1366,436,Huyện Hải Hậu,Hải Hậu,Huyện,35,Nam Định,1,
+1358,437,Huyện Mỹ Lộc,Mỹ Lộc,Huyện,35,Nam Định,1,
+1356,438,Thành phố Nam Định,Nam Định,Thành phố,35,Nam Định,1,
+1362,439,Huyện Nam Trực,Nam Trực,Huyện,35,Nam Định,1,
+1361,440,Huyện Nghĩa Hưng,Nghĩa Hưng,Huyện,35,Nam Định,1,
+1363,441,Huyện Trực Ninh,Trực Ninh,Huyện,35,Nam Định,1,
+1359,442,Huyện Vụ Bản,Vụ Bản,Huyện,35,Nam Định,1,
+1364,443,Huyện Xuân Trường,Xuân Trường,Huyện,35,Nam Định,1,
+1360,444,Huyện Ý Yên,Ý Yên,Huyện,35,Nam Định,1,
+1085,426,Huyện Bắc Hà,Bắc Hà,Huyện,34,Lào Cai,1,
+1086,427,Huyện Bảo Thắng,Bảo Thắng,Huyện,34,Lào Cai,1,
+1087,428,Huyện Bảo Yên,Bảo Yên,Huyện,34,Lào Cai,1,
+1082,429,Huyện Bát Xát,Bát Xát,Huyện,34,Lào Cai,1,
+1080,430,Thành phố Lào Cai,Lào Cai,Thành phố,34,Lào Cai,1,
+1083,431,Huyện Mường Khương,Mường Khương,Huyện,34,Lào Cai,1,
+1088,432,Huyện Sa Pa,Sa Pa,Huyện,34,Lào Cai,1,
+1089,433,Huyện Văn Bàn,Văn Bàn,Huyện,34,Lào Cai,1,
+1084,434,Huyện Si Ma Cai,Xi Ma Cai,Huyện,34,Lào Cai,0.933,
+1171,417,Huyện Đại Từ,Đại Từ,Huyện,33,Thái Nguyên,1,
+1167,418,Huyện Định Hóa,Định Hóa,Huyện,33,Thái Nguyên,1,
+1169,419,Huyện Đồng Hỷ,Đồng Hỷ,Huyện,33,Thái Nguyên,1,
+1172,420,Thị xã Phổ Yên,Phổ Yên,Huyện,33,Thái Nguyên,Sai prefix,
+1173,421,Huyện Phú Bình,Phú Bình,Huyện,33,Thái Nguyên,1,
+1168,422,Huyện Phú Lương,Phú Lương,Huyện,33,Thái Nguyên,1,
+1165,423,Thành phố Sông Công,Sông Công,Thị xã,33,Thái Nguyên,Sai prefix,
+1164,424,Thành phố Thái Nguyên,Thái Nguyên,Thành phố,33,Thái Nguyên,1,
+1170,425,Huyện Võ Nhai,Võ Nhai,Huyện,33,Thái Nguyên,1,
+1711,408,Huyện Bến Cầu,Bến Cầu,Huyện,32,Tây Ninh,1,
+1708,409,Huyện Châu Thành,Châu Thành,Huyện,32,Tây Ninh,1,
+1707,410,Huyện Dương Minh Châu,Dương Minh Châu,Huyện,32,Tây Ninh,1,
+1710,411,Huyện Gò Dầu,Gò Dầu,Huyện,32,Tây Ninh,1,
+1709,412,Huyện Hòa Thành,Hòa Thành,Huyện,32,Tây Ninh,1,
+1705,413,Huyện Tân Biên,Tân Biên,Huyện,32,Tây Ninh,1,
+1706,414,Huyện Tân Châu,Tân Châu,Huyện,32,Tây Ninh,1,
+1703,415,Thành phố Tây Ninh,Tây Ninh,Thị xã,32,Tây Ninh,Sai prefix,
+1712,416,Huyện Trảng Bàng,Trảng Bàng,Huyện,32,Tây Ninh,1,
+1249,399,Huyện Bình Xuyên,Bình Xuyên,Huyện,31,Vĩnh Phúc,1,
+1246,400,Huyện Lập Thạch,Lập Thạch,Huyện,31,Vĩnh Phúc,1,
+1244,401,Thị xã Phúc Yên,Phúc Yên,Thị xã,31,Vĩnh Phúc,1,
+1253,402,Huyện Sông Lô,Sông Lô,Huyện,31,Vĩnh Phúc,1,
+1248,403,Huyện Tam Đảo,Tam Đảo,Huyện,31,Vĩnh Phúc,1,
+1247,404,Huyện Tam Dương,Tam Dương,Huyện,31,Vĩnh Phúc,1,
+1252,405,Huyện Vĩnh Tường,Vĩnh Tường,Huyện,31,Vĩnh Phúc,1,
+1243,406,Thành phố Vĩnh Yên,Vĩnh Yên,Thành phố,31,Vĩnh Phúc,1,
+1251,407,Huyện Yên Lạc,Yên Lạc,Huyện,31,Vĩnh Phúc,1,
+1886,388,Huyện An Phú,An Phú,Huyện,30,An Giang,1,
+1884,389,Thành phố Châu Đốc,Châu Đốc,Thị xã,30,An Giang,Sai prefix,
+1889,390,Huyện Châu Phú,Châu Phú,Huyện,30,An Giang,1,
+1892,391,Huyện Châu Thành,Châu Thành,Huyện,30,An Giang,1,
+1893,392,Huyện Chợ Mới,Chợ Mới,Huyện,30,An Giang,1,
+1883,393,Thành phố Long Xuyên,Long Xuyên,Thành phố,30,An Giang,1,
+1888,394,Huyện Phú Tân,Phú Tân,Huyện,30,An Giang,1,
+1887,395,Thị xã Tân Châu,Tân Châu,Thị xã,30,An Giang,1,
+1894,396,Huyện Thoại Sơn,Thoại Sơn,Huyện,30,An Giang,1,
+1890,397,Huyện Tịnh Biên,Tịnh Biên,Huyện,30,An Giang,1,
+1891,398,Huyện Tri Tôn,Tri Tôn,Huyện,30,An Giang,1,
+1154,377,Huyện Cao Phong,Cao Phong,Huyện,29,Hòa Bình,1,
+1150,378,Huyện Đà Bắc,Đà Bắc,Huyện,29,Hòa Bình,1,
+1148,379,Thành phố Hòa Bình,Hòa Bình,Thành phố,29,Hòa Bình,1,
+1153,380,Huyện Kim Bôi,Kim Bôi,Huyện,29,Hòa Bình,1,
+1151,381,Huyện Kỳ Sơn,Kỳ Sơn,Huyện,29,Hòa Bình,1,
+1157,382,Huyện Lạc Sơn,Lạc Sơn,Huyện,29,Hòa Bình,1,
+1159,383,Huyện Lạc Thủy,Lạc Thủy,Huyện,29,Hòa Bình,1,
+1152,384,Huyện Lương Sơn,Lương Sơn,Huyện,29,Hòa Bình,1,
+1156,385,Huyện Mai Châu,Mai Châu,Huyện,29,Hòa Bình,1,
+1155,386,Huyện Tân Lạc,Tân Lạc,Huyện,29,Hòa Bình,1,
+1158,387,Huyện Yên Thủy,Yên Thủy,Huyện,29,Hòa Bình,1,
+1213,367,Thành phố Bắc Giang,Bắc Giang,Thành phố,28,Bắc Giang,1,
+1223,368,Huyện Hiệp Hòa,Hiệp Hòa,Huyện,28,Bắc Giang,1,
+1217,369,Huyện Lạng Giang,Lạng Giang,Huyện,28,Bắc Giang,1,
+1218,370,Huyện Lục Nam,Lục Nam,Huyện,28,Bắc Giang,1,
+1219,371,Huyện Lục Ngạn,Lục Ngạn,Huyện,28,Bắc Giang,1,
+1220,372,Huyện Sơn Động,Sơn Động,Huyện,28,Bắc Giang,1,
+1216,373,Huyện Tân Yên,Tân Yên,Huyện,28,Bắc Giang,1,
+1222,374,Huyện Việt Yên,Việt Yên,Huyện,28,Bắc Giang,1,
+1221,375,Huyện Yên Dũng,Yên Dũng,Huyện,28,Bắc Giang,1,
+1215,376,Huyện Yên Thế,Yên Thế,Huyện,28,Bắc Giang,1,
+1340,359,Huyện Đông Hưng,Đông Hưng,Huyện,27,Thái Bình,1,
+1339,360,Huyện Hưng Hà,Hưng Hà,Huyện,27,Thái Bình,1,
+1343,361,Huyện Kiến Xương,Kiến Xương,Huyện,27,Thái Bình,1,
+1338,362,Huyện Quỳnh Phụ,Quỳnh Phụ,Huyện,27,Thái Bình,1,
+1336,363,Thành phố Thái Bình,Thái Bình,Thành phố,27,Thái Bình,1,
+1341,364,Huyện Thái Thụy,Thái Thuỵ,Huyện,27,Thái Bình,0.867,
+1342,365,Huyện Tiền Hải,Tiền Hải,Huyện,27,Thái Bình,1,
+1344,366,Huyện Vũ Thư,Vũ Thư,Huyện,27,Thái Bình,1,
+1819,348,Huyện Cái Bè,Cái Bè,Huyện,26,Tiền Giang,1,
+1817,349,Thị xã Cai Lậy,Cai Lậy,Thị xã,26,Tiền Giang,1,
+1821,350,Huyện Châu Thành,Châu Thành,Huyện,26,Tiền Giang,1,
+1822,351,Huyện Chợ Gạo,Chợ Gạo,Huyện,26,Tiền Giang,1,
+1816,352,Thị xã Gò Công,Gò Công,Thị xã,26,Tiền Giang,1,
+1824,353,Huyện Gò Công Đông,Gò Công Đông,Huyện,26,Tiền Giang,1,
+1823,354,Huyện Gò Công Tây,Gò Công Tây,Huyện,26,Tiền Giang,1,
+1820,355,Huyện Cai Lậy,Huyện Cai Lậy,Huyện,26,Tiền Giang,Sai prefix,
+1815,356,Thành phố Mỹ Tho,Mỹ Tho,Thành phố,26,Tiền Giang,1,
+1825,357,Huyện Tân Phú Đông,Tân Phú Đông,Huyện,26,Tiền Giang,1,
+1818,358,Huyện Tân Phước,Tân Phước,Huyện,26,Tiền Giang,1,
+1542,337,Huyện An Lão,An Lão,Huyện,25,Bình Định,1,
+1549,338,Thị xã An Nhơn,An Nhơn,Huyện,25,Bình Định,Sai prefix,
+1544,339,Huyện Hoài Ân,Hoài Ân,Huyện,25,Bình Định,1,
+1543,340,Huyện Hoài Nhơn,Hoài Nhơn,Huyện,25,Bình Định,1,
+1548,341,Huyện Phù Cát,Phù Cát,Huyện,25,Bình Định,1,
+1545,342,Huyện Phù Mỹ,Phù Mỹ,Huyện,25,Bình Định,1,
+1540,343,Thành phố Qui Nhơn,Quy Nhơn,Thành phố,25,Bình Định,0.944,
+1547,344,Huyện Tây Sơn,Tây Sơn,Huyện,25,Bình Định,1,
+1550,345,Huyện Tuy Phước,Tuy Phước,Huyện,25,Bình Định,1,
+1551,346,Huyện Vân Canh,Vân Canh,Huyện,25,Bình Định,1,
+1546,347,Huyện Vĩnh Thạnh,Vĩnh Thạnh,Huyện,25,Bình Định,1,
+1329,327,Huyện Ân Thi,Ân Thi,Huyện,24,Hưng Yên,1,
+1323,328,Thành phố Hưng Yên,Hưng Yên,Thành phố,24,Hưng Yên,1,
+1330,329,Huyện Khoái Châu,Khoái Châu,Huyện,24,Hưng Yên,1,
+1331,330,Huyện Kim Động,Kim Động,Huyện,24,Hưng Yên,1,
+1328,331,Huyện Mỹ Hào,Mỹ Hào,Huyện,24,Hưng Yên,1,
+1333,332,Huyện Phù Cừ,Phù Cừ,Huyện,24,Hưng Yên,1,
+1332,333,Huyện Tiên Lữ,Tiên Lữ,Huyện,24,Hưng Yên,1,
+1326,334,Huyện Văn Giang,Văn Giang,Huyện,24,Hưng Yên,1,
+1325,335,Huyện Văn Lâm,Văn Lâm,Huyện,24,Hưng Yên,1,
+1327,336,Huyện Yên Mỹ,Yên Mỹ,Huyện,24,Hưng Yên,1,
+1690,316,Thị xã Bình Long,Bình Long,Thị xã,23,Bình Phước,1,
+1696,317,Huyện Bù Đăng,Bù Đăng,Huyện,23,Bình Phước,1,
+1693,318,Huyện Bù Đốp,Bù Đốp,Huyện,23,Bình Phước,1,
+1691,319,Huyện Bù Gia Mập,Bù Gia Mập,Huyện,23,Bình Phước,1,
+1697,320,Huyện Chơn Thành,Chơn Thành,Huyện,23,Bình Phước,1,
+1695,321,Huyện Đồng Phú,Đồng Phú,Huyện,23,Bình Phước,1,
+1689,322,Thị xã Đồng Xoài,Đồng Xoài,Thị xã,23,Bình Phước,1,
+1694,323,Huyện Hớn Quản,Hớn Quản,Huyện,23,Bình Phước,1,
+1692,324,Huyện Lộc Ninh,Lộc Ninh,Huyện,23,Bình Phước,1,
+1698,325,Huyện Phú Riềng,Phú Riềng,Huyện,23,Bình Phước,1,
+1688,326,Thị xã Phước Long,Phước Long,Thị xã,23,Bình Phước,1,
+1623,299,Thị xã An Khê,An Khê,Thị xã,22,Gia Lai,1,
+1624,300,Thị xã Ayun Pa,AYun Pa,Thị xã,22,Gia Lai,1,
+1627,301,Huyện Chư Păh,Chư Păh,Huyện,22,Gia Lai,1,
+1639,302,Huyện Chư Pưh,Chư Pưh,Huyện,22,Gia Lai,1,
+1633,303,Huyện Chư Sê,Chư Sê,Huyện,22,Gia Lai,1,
+1632,304,Huyện Chư Prông,ChưPRông,Huyện,22,Gia Lai,0.966,
+1626,305,Huyện Đăk Đoa,Đăk Đoa,Huyện,22,Gia Lai,1,
+1634,306,Huyện Đăk Pơ,Đăk Pơ,Huyện,22,Gia Lai,1,
+1631,307,Huyện Đức Cơ,Đức Cơ,Huyện,22,Gia Lai,1,
+1628,308,Huyện Ia Grai,Ia Grai,Huyện,22,Gia Lai,1,
+1635,309,Huyện Ia Pa,Ia Pa,Huyện,22,Gia Lai,1,
+1625,310,Huyện KBang,KBang,Huyện,22,Gia Lai,1,
+1630,311,Huyện Kông Chro,Kông Chro,Huyện,22,Gia Lai,1,
+1637,312,Huyện Krông Pa,Krông Pa,Huyện,22,Gia Lai,1,
+1629,313,Huyện Mang Yang,Mang Yang,Huyện,22,Gia Lai,1,
+1638,314,Huyện Phú Thiện,Phú Thiện,Huyện,22,Gia Lai,1,
+1622,315,Thành phố Pleiku,Plei Ku,Thành phố,22,Gia Lai,0.97,
+1296,287,Huyện Bình Giang,Bình Giang,Huyện,21,Hải Dương,1,
+1295,288,Huyện Cẩm Giàng,Cẩm Giàng,Huyện,21,Hải Dương,1,
+1290,289,Thị xã Chí Linh,Chí Linh,Thị xã,21,Hải Dương,1,
+1297,290,Huyện Gia Lộc,Gia Lộc,Huyện,21,Hải Dương,1,
+1288,291,Thành phố Hải Dương,Hải Dương,Thành phố,21,Hải Dương,1,
+1293,292,Huyện Kim Thành,Kim Thành,Huyện,21,Hải Dương,1,
+1292,293,Huyện Kinh Môn,Kinh Môn,Huyện,21,Hải Dương,1,
+1291,294,Huyện Nam Sách,Nam Sách,Huyện,21,Hải Dương,1,
+1299,295,Huyện Ninh Giang,Ninh Giang,Huyện,21,Hải Dương,1,
+1294,296,Huyện Thanh Hà,Thanh Hà,Huyện,21,Hải Dương,1,
+1300,297,Huyện Thanh Miện,Thanh Miện,Huyện,21,Hải Dương,1,
+1298,298,Huyện Tứ Kỳ,Tứ Kỳ,Huyện,21,Hải Dương,1,
+1424,266,Huyện Anh Sơn,Anh Sơn,Huyện,20,Nghệ An,1,
+1422,267,Huyện Con Cuông,Con Cuông,Huyện,20,Nghệ An,1,
+1413,268,Thị xã Cửa Lò,Cửa Lò,Thị xã,20,Nghệ An,1,
+1425,269,Huyện Diễn Châu,Diễn Châu,Huyện,20,Nghệ An,1,
+1427,270,Huyện Đô Lương,Đô Lương,Huyện,20,Nghệ An,1,
+1432,271,Thị xã Hoàng Mai,Hoàng Mai,Thị xã,20,Nghệ An,1,
+1431,272,Huyện Hưng Nguyên,Hưng Nguyên,Huyện,20,Nghệ An,1,
+1417,273,Huyện Kỳ Sơn,Kỳ Sơn,Huyện,20,Nghệ An,1,
+1430,274,Huyện Nam Đàn,Nam Đàn,Huyện,20,Nghệ An,1,
+1429,275,Huyện Nghi Lộc,Nghi Lộc,Huyện,20,Nghệ An,1,
+1419,276,Huyện Nghĩa Đàn,Nghĩa Đàn,Huyện,20,Nghệ An,1,
+1415,277,Huyện Quế Phong,Quế Phong,Huyện,20,Nghệ An,1,
+1416,278,Huyện Quỳ Châu,Quỳ Châu,Huyện,20,Nghệ An,1,
+1420,279,Huyện Quỳ Hợp,Quỳ Hợp,Huyện,20,Nghệ An,1,
+1421,280,Huyện Quỳnh Lưu,Quỳnh Lưu,Huyện,20,Nghệ An,1,
+1423,281,Huyện Tân Kỳ,Tân Kỳ,Huyện,20,Nghệ An,1,
+1414,282,Thị xã Thái Hoà,Thái Hòa,Thị xã,20,Nghệ An,0.867,
+1428,283,Huyện Thanh Chương,Thanh Chương,Huyện,20,Nghệ An,1,
+1418,284,Huyện Tương Dương,Tương Dương,Huyện,20,Nghệ An,1,
+1412,285,Thành phố Vinh,Vinh,Thành phố,20,Nghệ An,1,
+1426,286,Huyện Yên Thành,Yên Thành,Huyện,20,Nghệ An,1,
+1386,239,Huyện Bá Thước,Bá Thước,Huyện,19,Thanh Hóa,1,
+1381,240,Thị xã Bỉm Sơn,Bỉm Sơn,Thị xã,19,Thanh Hóa,1,
+1390,241,Huyện Cẩm Thủy,Cẩm Thủy,Huyện,19,Thanh Hóa,1,
+1405,242,Huyện Đông Sơn,Đông Sơn,Huyện,19,Thanh Hóa,1,
+1392,243,Huyện Hà Trung,Hà Trung,Huyện,19,Thanh Hóa,1,
+1400,244,Huyện Hậu Lộc,Hậu Lộc,Huyện,19,Thanh Hóa,1,
+1399,245,Huyện Hoằng Hóa,Hoằng Hóa,Huyện,19,Thanh Hóa,1,
+1388,246,Huyện Lang Chánh,Lang Chánh,Huyện,19,Thanh Hóa,1,
+1384,247,Huyện Mường Lát,Mường Lát,Huyện,19,Thanh Hóa,1,
+1401,248,Huyện Nga Sơn,Nga Sơn,Huyện,19,Thanh Hóa,1,
+1389,249,Huyện Ngọc Lặc,Ngọc Lặc,Huyện,19,Thanh Hóa,1,
+1403,250,Huyện Như Thanh,Như Thanh,Huyện,19,Thanh Hóa,1,
+1402,251,Huyện Như Xuân,Như Xuân,Huyện,19,Thanh Hóa,1,
+1404,252,Huyện Nông Cống,Nông Cống,Huyện,19,Thanh Hóa,1,
+1385,253,Huyện Quan Hóa,Quan Hóa,Huyện,19,Thanh Hóa,1,
+1387,254,Huyện Quan Sơn,Quan Sơn,Huyện,19,Thanh Hóa,1,
+1406,255,Huyện Quảng Xương,Quảng Xương,Huyện,19,Thanh Hóa,1,
+1382,256,Thị xã Sầm Sơn,Sầm Sơn,Thị xã,19,Thanh Hóa,1,
+1391,257,Huyện Thạch Thành,Thạch Thành,Huyện,19,Thanh Hóa,1,
+1380,258,Thành phố Thanh Hóa,Thanh Hóa,Thành phố,19,Thanh Hóa,1,
+1398,259,Huyện Thiệu Hóa,Thiệu Hóa,Huyện,19,Thanh Hóa,1,
+1395,260,Huyện Thọ Xuân,Thọ Xuân,Huyện,19,Thanh Hóa,1,
+1396,261,Huyện Thường Xuân,Thường Xuân,Huyện,19,Thanh Hóa,1,
+1407,262,Huyện Tĩnh Gia,Tĩnh Gia,Huyện,19,Thanh Hóa,1,
+1397,263,Huyện Triệu Sơn,Triệu Sơn,Huyện,19,Thanh Hóa,1,
+1393,264,Huyện Vĩnh Lộc,Vĩnh Lộc,Huyện,19,Thanh Hóa,1,
+1394,265,Huyện Yên Định,Yên Định,Huyện,19,Thanh Hóa,1,
+1202,225,Huyện Ba Chẽ,Ba Chẽ,Huyện,18,Quảng Ninh,1,
+1198,226,Huyện Bình Liêu,Bình Liêu,Huyện,18,Quảng Ninh,1,
+1195,227,Thành phố Cẩm Phả,Cẩm Phả,Thành phố,18,Quảng Ninh,1,
+1207,228,Huyện Cô Tô,Cô Tô,Huyện,18,Quảng Ninh,1,
+1200,229,Huyện Đầm Hà,Đầm Hà,Huyện,18,Quảng Ninh,1,
+1205,230,Thị xã Đông Triều,Đông Triều,Huyện,18,Quảng Ninh,Sai prefix,
+1193,231,Thành phố Hạ Long,Hạ Long,Thành phố,18,Quảng Ninh,1,
+1201,232,Huyện Hải Hà,Hải Hà,Huyện,18,Quảng Ninh,1,
+1204,233,Huyện Hoành Bồ,Hoành Bồ,Huyện,18,Quảng Ninh,1,
+1194,234,Thành phố Móng Cái,Móng Cái,Thành phố,18,Quảng Ninh,1,
+1206,235,Thị xã Quảng Yên,Quảng Yên,Huyện,18,Quảng Ninh,Sai prefix,
+1199,236,Huyện Tiên Yên,Tiên Yên,Huyện,18,Quảng Ninh,1,
+1196,237,Thành phố Uông Bí,Uông Bí,Thị xã,18,Quảng Ninh,Sai prefix,
+1203,238,Huyện Vân Đồn,Vân Đồn,Huyện,18,Quảng Ninh,1,
+1256,217,Thành phố Bắc Ninh,Bắc Ninh,Thành phố,17,Bắc Ninh,1,
+1263,218,Huyện Gia Bình,Gia Bình,Huyện,17,Bắc Ninh,1,
+1264,219,Huyện Lương Tài,Lương Tài,Huyện,17,Bắc Ninh,1,
+1259,220,Huyện Quế Võ,Quế Võ,Huyện,17,Bắc Ninh,1,
+1262,221,Huyện Thuận Thành,Thuận Thành,Huyện,17,Bắc Ninh,1,
+1260,222,Huyện Tiên Du,Tiên Du,Huyện,17,Bắc Ninh,1,
+1261,223,Thị xã Từ Sơn,Từ Sơn,Thị xã,17,Bắc Ninh,1,
+1258,224,Huyện Yên Phong,Yên Phong,Huyện,17,Bắc Ninh,1,
+1908,202,Huyện An Biên,An Biên,Huyện,16,Kiên Giang,1,
+1909,203,Huyện An Minh,An Minh,Huyện,16,Kiên Giang,1,
+1905,204,Huyện Châu Thành,Châu Thành,Huyện,16,Kiên Giang,1,
+1914,205,Huyện Giang Thành,Giang Thành,Huyện,16,Kiên Giang,1,
+1906,206,Huyện Giồng Riềng,Giồng Riềng,Huyện,16,Kiên Giang,1,
+1907,207,Huyện Gò Quao,Gò Quao,Huyện,16,Kiên Giang,1,
+1900,208,Thị xã Hà Tiên,Hà Tiên,Thị xã,16,Kiên Giang,1,
+1903,209,Huyện Hòn Đất,Hòn Đất,Huyện,16,Kiên Giang,1,
+1912,210,Huyện Kiên Hải,Kiên Hải,Huyện,16,Kiên Giang,1,
+1902,211,Huyện Kiên Lương,Kiên Lương,Huyện,16,Kiên Giang,1,
+1911,212,Huyện Phú Quốc,Phú Quốc,Huyện,16,Kiên Giang,1,
+1899,213,Thành phố Rạch Giá,Rạch Giá,Thành phố,16,Kiên Giang,1,
+1904,214,Huyện Tân Hiệp,Tân Hiệp,Huyện,16,Kiên Giang,1,
+1913,215,Huyện U Minh Thượng,U minh Thượng,Huyện,16,Kiên Giang,1,
+1910,216,Huyện Vĩnh Thuận,Vĩnh Thuận,Huyện,16,Kiên Giang,1,
+1481,193,Huyện A Lưới,A Lưới,Huyện,15,Thừa Thiên Huế,1,
+1474,194,Thành phố Huế,Huế,Thành phố,15,Thừa Thiên Huế,1,
+1479,195,Thị xã Hương Thủy,Hương Thủy,Thị xã,15,Thừa Thiên Huế,1,
+1480,196,Thị xã Hương Trà,Hương Trà,Huyện,15,Thừa Thiên Huế,Sai prefix,
+1483,197,Huyện Nam Đông,Nam Đông,Huyện,15,Thừa Thiên Huế,1,
+1476,198,Huyện Phong Điền,Phong Điền,Huyện,15,Thừa Thiên Huế,1,
+1482,199,Huyện Phú Lộc,Phú Lộc,Huyện,15,Thừa Thiên Huế,1,
+1478,200,Huyện Phú Vang,Phú Vang,Huyện,15,Thừa Thiên Huế,1,
+1477,201,Huyện Quảng Điền,Quảng Điền,Huyện,15,Thừa Thiên Huế,1,
+1680,181,Huyện Bảo Lâm,Bảo Lâm,Huyện,14,Lâm Đồng,1,
+1673,182,Thành phố Bảo Lộc,Bảo Lộc,Thành phố,14,Lâm Đồng,1,
+1683,183,Huyện Cát Tiên,Cát Tiên,Huyện,14,Lâm Đồng,1,
+1681,184,Huyện Đạ Huoai,Đạ Huoai,Huyện,14,Lâm Đồng,1,
+1672,185,Thành phố Đà Lạt,Đà Lạt,Thành phố,14,Lâm Đồng,1,
+1682,186,Huyện Đạ Tẻh,Đạ Tẻh,Huyện,14,Lâm Đồng,1,
+1674,187,Huyện Đam Rông,Đam Rông,Huyện,14,Lâm Đồng,1,
+1679,188,Huyện Di Linh,Di Linh,Huyện,14,Lâm Đồng,1,
+1677,189,Huyện Đơn Dương,Đơn Dương,Huyện,14,Lâm Đồng,1,
+1678,190,Huyện Đức Trọng,Đức Trọng,Huyện,14,Lâm Đồng,1,
+1675,191,Huyện Lạc Dương,Lạc Dương,Huyện,14,Lâm Đồng,1,
+1676,192,Huyện Lâm Hà,Lâm Hà,Huyện,14,Lâm Đồng,1,
+1596,171,Huyện Bắc Bình,Bắc Bình,Huyện,13,Bình Thuận,1,
+1602,172,Huyện Phú Quí,Đảo Phú Quý,Huyện,13,Bình Thuận,0.8,
+1600,173,Huyện Đức Linh,Đức Linh,Huyện,13,Bình Thuận,1,
+1601,174,Huyện Hàm Tân,Hàm Tân,Huyện,13,Bình Thuận,1,
+1597,175,Huyện Hàm Thuận Bắc,Hàm Thuận Bắc,Huyện,13,Bình Thuận,1,
+1598,176,Huyện Hàm Thuận Nam,Hàm Thuận Nam,Huyện,13,Bình Thuận,1,
+1594,177,Thị xã La Gi,La Gi,Thị xã,13,Bình Thuận,1,
+1593,178,Thành phố Phan Thiết,Phan Thiết,Thành phố,13,Bình Thuận,1,
+1599,179,Huyện Tánh Linh,Tánh Linh,Huyện,13,Bình Thuận,1,
+1595,180,Huyện Tuy Phong,Tuy Phong,Huyện,13,Bình Thuận,1,
+1918,163,Quận Bình Thuỷ,Bình Thủy,Quận,12,Cần Thơ,0.857,
+1919,164,Quận Cái Răng,Cái Răng,Quận,12,Cần Thơ,1,
+1925,165,Huyện Cờ Đỏ,Cờ Đỏ,Huyện,12,Cần Thơ,1,
+1916,166,Quận Ninh Kiều,Ninh Kiều,Quận,12,Cần Thơ,1,
+1917,167,Quận Ô Môn,Ô Môn,Quận,12,Cần Thơ,1,
+1926,168,Huyện Phong Điền,Phong Điền,Huyện,12,Cần Thơ,1,
+1927,162,Huyện Thới Lai,Thới Lai,Huyện,12,Cần Thơ,1,
+1923,169,Quận Thốt Nốt,Thốt Nốt,Quận,12,Cần Thơ,1,
+1924,170,Huyện Vĩnh Thạnh,Vĩnh Thạnh,Huyện,12,Cần Thơ,1,
+1647,147,Huyện Buôn Đôn,Buôn Đôn,Huyện,11,Đắk Lắk,1,
+1644,148,Thị Xã Buôn Hồ,Buôn Hồ,Thị xã,11,Đắk Lắk,1,
+1643,149,Thành phố Buôn Ma Thuột,Buôn Ma Thuột,Thành phố,11,Đắk Lắk,1,
+1657,150,Huyện Cư Kuin,Cư Kuin,Huyện,11,Đắk Lắk,1,
+1648,151,Huyện Cư M'gar,Cư M'gar,Huyện,11,Đắk Lắk,1,
+1645,152,Huyện Ea H'leo,Ea H'Leo,Huyện,11,Đắk Lắk,1,
+1651,153,Huyện Ea Kar,Ea Kar,Huyện,11,Đắk Lắk,1,
+1646,154,Huyện Ea Súp,Ea Súp,Huyện,11,Đắk Lắk,1,
+1655,155,Huyện Krông A Na,Krông Ana,Huyện,11,Đắk Lắk,0.968,
+1653,156,Huyện Krông Bông,Krông Bông,Huyện,11,Đắk Lắk,1,
+1649,157,Huyện Krông Búk,Krông Buk,Huyện,11,Đắk Lắk,0.933,
+1650,158,Huyện Krông Năng,Krông Năng,Huyện,11,Đắk Lắk,1,
+1654,159,Huyện Krông Pắc,Krông Pắc,Huyện,11,Đắk Lắk,1,
+1656,160,Huyện Lắk,Lăk,Huyện,11,Đắk Lắk,0.889,
+1652,161,Huyện M'Đrắk,M'Đrăk,Huyện,11,Đắk Lắk,0.917,
+1748,139,Thành phố Bà Rịa,Bà Rịa,Thị xã,10,Bà Rịa - Vũng Tàu,Sai prefix,
+1750,140,Huyện Châu Đức,Châu Đức,Huyện,10,Bà Rịa - Vũng Tàu,1,
+1755,141,Huyện Côn Đảo,Côn Đảo,Huyện,10,Bà Rịa - Vũng Tàu,1,
+1753,142,Huyện Đất Đỏ,Đất Đỏ,Huyện,10,Bà Rịa - Vũng Tàu,1,
+1752,143,Huyện Long Điền,Long Điền,Huyện,10,Bà Rịa - Vũng Tàu,1,
+1754,144,Huyện Tân Thành,Tân Thành,Huyện,10,Bà Rịa - Vũng Tàu,1,
+1747,145,Thành phố Vũng Tàu,Vũng Tàu,Thành phố,10,Bà Rịa - Vũng Tàu,1,
+1751,146,Huyện Xuyên Mộc,Xuyên Mộc,Huyện,10,Bà Rịa - Vũng Tàu,1,
+1515,121,Huyện Bắc Trà My,Bắc Trà My,Huyện,9,Quảng Nam,1,
+1506,122,Huyện Đại Lộc,Đại Lộc,Huyện,9,Quảng Nam,1,
+1507,123,Thị xã Điện Bàn,Điện Bàn,Huyện,9,Quảng Nam,Sai prefix,
+1505,124,Huyện Đông Giang,Đông Giang,Huyện,9,Quảng Nam,1,
+1508,125,Huyện Duy Xuyên,Duy Xuyên,Huyện,9,Quảng Nam,1,
+1512,126,Huyện Hiệp Đức,Hiệp Đức,Huyện,9,Quảng Nam,1,
+1503,127,Thành phố Hội An,Hội An,Thành phố,9,Quảng Nam,1,
+1510,128,Huyện Nam Giang,Nam Giang,Huyện,9,Quảng Nam,1,
+1516,129,Huyện Nam Trà My,Nam Trà My,Huyện,9,Quảng Nam,1,
+1519,130,Huyện Nông Sơn,Nông Sơn,Huyện,9,Quảng Nam,1,
+1517,131,Huyện Núi Thành,Núi Thành,Huyện,9,Quảng Nam,1,
+1518,132,Huyện Phú Ninh,Phú Ninh,Huyện,9,Quảng Nam,1,
+1511,133,Huyện Phước Sơn,Phước Sơn,Huyện,9,Quảng Nam,1,
+1509,134,Huyện Quế Sơn,Quế Sơn,Huyện,9,Quảng Nam,1,
+1502,135,Thành phố Tam Kỳ,Tam Kỳ,Thành phố,9,Quảng Nam,1,
+1504,136,Huyện Tây Giang,Tây Giang,Huyện,9,Quảng Nam,1,
+1513,137,Huyện Thăng Bình,Thăng Bình,Huyện,9,Quảng Nam,1,
+1514,138,Huyện Tiên Phước,Tiên Phước,Huyện,9,Quảng Nam,1,
+1803,106,Huyện Bến Lức,Bến Lức,Huyện,8,Long An,1,
+1806,107,Huyện Cần Đước,Cần Đước,Huyện,8,Long An,1,
+1807,108,Huyện Cần Giuộc,Cần Giuộc,Huyện,8,Long An,1,
+1808,109,Huyện Châu Thành,Châu Thành,Huyện,8,Long An,1,
+1802,110,Huyện Đức Hòa,Đức Hòa,Huyện,8,Long An,1,
+1801,111,Huyện Đức Huệ,Đức Huệ,Huyện,8,Long An,1,
+1795,112,Thị xã Kiến Tường,Kiến Tường,Thị xã,8,Long An,1,
+1798,113,Huyện Mộc Hóa,Mộc Hóa,Huyện,8,Long An,1,
+1794,114,Thành phố Tân An,Tân An,Thành phố,8,Long An,1,
+1796,115,Huyện Tân Hưng,Tân Hưng,Huyện,8,Long An,1,
+1799,116,Huyện Tân Thạnh,Tân Thạnh,Huyện,8,Long An,1,
+1805,117,Huyện Tân Trụ,Tân Trụ,Huyện,8,Long An,1,
+1800,118,Huyện Thạnh Hóa,Thạnh Hóa,Huyện,8,Long An,1,
+1804,119,Huyện Thủ Thừa,Thủ Thừa,Huyện,8,Long An,1,
+1797,120,Huyện Vĩnh Hưng,Vĩnh Hưng,Huyện,8,Long An,1,
+1312,91,Huyện An Dương,An Dương,Huyện,7,Hải Phòng,1,
+1313,92,Huyện An Lão,An Lão,Huyện,7,Hải Phòng,1,
+1318,93,Huyện Bạch Long Vĩ,Bạch Long Vĩ,Huyện,7,Hải Phòng,1,
+1317,94,Huyện Cát Hải,Cát Hải,Huyện,7,Hải Phòng,1,
+1308,95,Quận Đồ Sơn,Đồ Sơn,Quận,7,Hải Phòng,1,
+1309,96,Quận Dương Kinh,Dương Kinh,Quận,7,Hải Phòng,1,
+1306,97,Quận Hải An,Hải An,Quận,7,Hải Phòng,1,
+1303,98,Quận Hồng Bàng,Hồng Bàng,Quận,7,Hải Phòng,1,
+1307,99,Quận Kiến An,Kiến An,Quận,7,Hải Phòng,1,
+1314,100,Huyện Kiến Thuỵ,Kiến Thụy,Huyện,7,Hải Phòng,0.867,
+1305,101,Quận Lê Chân,Lê Chân,Quận,7,Hải Phòng,1,
+1304,102,Quận Ngô Quyền,Ngô Quyền,Quận,7,Hải Phòng,1,
+1311,103,Huyện Thuỷ Nguyên,Thủy Nguyên,Huyện,7,Hải Phòng,0.882,
+1315,104,Huyện Tiên Lãng,Tiên Lãng,Huyện,7,Hải Phòng,1,
+1316,105,Huyện Vĩnh Bảo,Vĩnh Bảo,Huyện,7,Hải Phòng,1,
+1570,82,Huyện Cam Lâm,Cam Lâm,Huyện,6,Khánh Hòa,1,
+1569,83,Thành phố Cam Ranh,Cam Ranh,Thành phố,6,Khánh Hòa,1,
+1574,84,Huyện Diên Khánh,Diên Khánh,Huyện,6,Khánh Hòa,1,
+1575,85,Huyện Khánh Sơn,Khánh Sơn,Huyện,6,Khánh Hòa,1,
+1573,86,Huyện Khánh Vĩnh,Khánh Vĩnh,Huyện,6,Khánh Hòa,1,
+1568,87,Thành phố Nha Trang,Nha Trang,Thành phố,6,Khánh Hòa,1,
+1572,88,Thị xã Ninh Hòa,Ninh Hòa,Thị xã,6,Khánh Hòa,1,
+1576,89,Huyện Trường Sa,Trường Sa,Huyện,6,Khánh Hòa,1,
+1571,90,Huyện Vạn Ninh,Vạn Ninh,Huyện,6,Khánh Hòa,1,
+1731,71,Thành phố Biên Hòa,Biên Hòa,Thành phố,5,Đồng Nai,1,
+1739,72,Huyện Cẩm Mỹ,Cẩm Mỹ,Huyện,5,Đồng Nai,1,
+1736,73,Huyện Định Quán,Định Quán,Huyện,5,Đồng Nai,1,
+1732,74,Thị xã Long Khánh,Long Khánh,Thị xã,5,Đồng Nai,1,
+1740,75,Huyện Long Thành,Long Thành,Huyện,5,Đồng Nai,1,
+1742,76,Huyện Nhơn Trạch,Nhơn Trạch,Huyện,5,Đồng Nai,1,
+1734,77,Huyện Tân Phú,Tân Phú,Quận,5,Đồng Nai,Sai prefix,
+1738,78,Huyện Thống Nhất,Thống Nhất,Huyện,5,Đồng Nai,1,
+1737,79,Huyện Trảng Bom,Trảng Bom,Huyện,5,Đồng Nai,1,
+1735,80,Huyện Vĩnh Cửu,Vĩnh Cửu,Huyện,5,Đồng Nai,1,
+1741,81,Huyện Xuân Lộc,Xuân Lộc,Huyện,5,Đồng Nai,1,
+1719,63,Huyện Bàu Bàng,Bàu Bàng,Huyện,4,Bình Dương,1,
+1721,64,Thị xã Bến Cát,Bến Cát,Thị xã,4,Bình Dương,1,
+1720,65,Huyện Dầu Tiếng,Dầu Tiếng,Huyện,4,Bình Dương,1,
+1724,66,Thị xã Dĩ An,Dĩ An,Thị xã,4,Bình Dương,1,
+1722,67,Huyện Phú Giáo,Phú Giáo,Huyện,4,Bình Dương,1,
+1723,68,Thị xã Tân Uyên,Tân Uyên,Huyện,4,Bình Dương,Sai prefix,
+1726,68,Huyện Bắc Tân Uyên,Tân Uyên,Huyện,4,Bình Dương,THÀNH LẬP HUYỆN BẮC TÂN UYÊN,
+1718,69,Thành phố Thủ Dầu Một,Thủ Dầu Một,Thị xã,4,Bình Dương,Sai prefix,
+1725,70,Thị xã Thuận An,Thuận An,Huyện,4,Bình Dương,Sai prefix,
+1495,55,Quận Cẩm Lệ,Cẩm Lệ,Quận,3,Đà Nẵng,1,
+1492,56,Quận Hải Châu,Hải Châu,Quận,3,Đà Nẵng,1,
+1497,57,Huyện Hòa Vang,Hòa Vang,Huyện,3,Đà Nẵng,1,
+1498,58,Huyện Hoàng Sa,Hoàng Sa,Huyện,3,Đà Nẵng,1,
+1490,59,Quận Liên Chiểu,Liên Chiểu,Quận,3,Đà Nẵng,1,
+1494,60,Quận Ngũ Hành Sơn,Ngũ Hành Sơn,Quận,3,Đà Nẵng,1,
+1493,61,Quận Sơn Trà,Sơn Trà,Quận,3,Đà Nẵng,1,
+1491,62,Quận Thanh Khê,Thanh Khê,Quận,3,Đà Nẵng,1,
+1001,25,Quận Ba Đình,Ba Đình,Quận,2,Hà Nội,1,
+1271,26,Huyện Ba Vì,Ba Vì,Huyện,2,Hà Nội,1,
+1021,27,Quận Bắc Từ Liêm,Bắc Từ Liêm,Quận,2,Hà Nội,1,
+1005,28,Quận Cầu Giấy,Cầu Giấy,Quận,2,Hà Nội,1,
+1277,29,Huyện Chương Mỹ,Chương Mỹ,Huyện,2,Hà Nội,1,
+1273,30,Huyện Đan Phượng,Đan Phượng,Huyện,2,Hà Nội,1,
+1017,31,Huyện Đông Anh,Đông Anh,Huyện,2,Hà Nội,1,
+1006,32,Quận Đống Đa,Đống Đa,Quận,2,Hà Nội,1,
+1018,33,Huyện Gia Lâm,Gia Lâm,Huyện,2,Hà Nội,1,Chưa xóa prefix
+1268,34,Quận Hà Đông,Hà Đông,Quận,2,Hà Nội,1,
+1007,35,Quận Hai Bà Trưng,Hai Bà Trưng,Quận,2,Hà Nội,1,
+1274,36,Huyện Hoài Đức,Hoài Đức,Huyện,2,Hà Nội,1,
+1002,37,Quận Hoàn Kiếm,Hoàn Kiếm,Quận,2,Hà Nội,1,
+1008,38,Quận Hoàng Mai,Hoàng Mai,Quận,2,Hà Nội,1,
+1004,39,Quận Long Biên,Long Biên,Quận,2,Hà Nội,1,
+1250,40,Huyện Mê Linh,Mê Linh,Huyện,2,Hà Nội,1,
+1282,41,Huyện Mỹ Đức,Mỹ Đức,Huyện,2,Hà Nội,1,
+1019,42,Quận Nam Từ Liêm,Nam Từ Liêm,Quận,2,Hà Nội,1,Tách thêm thị xã
+1280,43,Huyện Phú Xuyên,Phú Xuyên,Huyện,2,Hà Nội,1,
+1272,44,Huyện Phúc Thọ,Phúc Thọ,Huyện,2,Hà Nội,1,
+1275,45,Huyện Quốc Oai,Quốc Oai,Huyện,2,Hà Nội,1,
+1016,46,Huyện Sóc Sơn,Sóc Sơn,Huyện,2,Hà Nội,1,
+1269,47,Thị xã Sơn Tây,Sơn Tây,Thị xã,2,Hà Nội,1,
+1003,48,Quận Tây Hồ,Tây Hồ,Quận,2,Hà Nội,1,
+1276,49,Huyện Thạch Thất,Thạch Thất,Huyện,2,Hà Nội,1,
+1278,50,Huyện Thanh Oai,Thanh Oai,Huyện,2,Hà Nội,1,
+1020,51,Huyện Thanh Trì,Thanh Trì,Huyện,2,Hà Nội,1,
+1009,52,Quận Thanh Xuân,Thanh Xuân,Quận,2,Hà Nội,1,
+1279,53,Huyện Thường Tín,Thường Tín,Huyện,2,Hà Nội,1,
+1281,54,Huyện Ứng Hòa,Ứng Hòa,Huyện,2,Hà Nội,1,
+1785,1,Huyện Bình Chánh,Bình Chánh,Huyện,1,Hồ Chí Minh,1,
+1777,2,Quận Bình Tân,Bình Tân,Quận,1,Hồ Chí Minh,1,
+1765,3,Quận Bình Thạnh,Bình Thạnh,Quận,1,Hồ Chí Minh,1,
+1787,4,Huyện Cần Giờ,Cần Giờ,Huyện,1,Hồ Chí Minh,1,
+1783,5,Huyện Củ Chi,Củ Chi,Huyện,1,Hồ Chí Minh,1,
+1764,6,Quận Gò Vấp,Gò Vấp,Quận,1,Hồ Chí Minh,1,
+1784,7,Huyện Hóc Môn,Hóc Môn,Huyện,1,Hồ Chí Minh,1,
+1786,8,Huyện Nhà Bè,Nhà Bè,Huyện,1,Hồ Chí Minh,1,
+1768,9,Quận Phú Nhuận,Phú Nhuận,Quận,1,Hồ Chí Minh,1,
+1760,10,Quận 1,Quận 1,,1,Hồ Chí Minh,1,
+1771,11,Quận 10,Quận 10,,1,Hồ Chí Minh,1,
+1772,12,Quận 11,Quận 11,,1,Hồ Chí Minh,1,
+1761,13,Quận 12,Quận 12,,1,Hồ Chí Minh,1,
+1769,14,Quận 2,Quận 2,,1,Hồ Chí Minh,1,
+1770,15,Quận 3,Quận 3,,1,Hồ Chí Minh,1,
+1773,16,Quận 4,Quận 4,,1,Hồ Chí Minh,1,
+1774,17,Quận 5,Quận 5,,1,Hồ Chí Minh,1,
+1775,18,Quận 6,Quận 6,,1,Hồ Chí Minh,1,
+1778,19,Quận 7,Quận 7,,1,Hồ Chí Minh,1,
+1776,20,Quận 8,Quận 8,,1,Hồ Chí Minh,1,
+1763,21,Quận 9,Quận 9,,1,Hồ Chí Minh,1,
+1766,22,Quận Tân Bình,Tân Bình,Quận,1,Hồ Chí Minh,1,
+1767,23,Quận Tân Phú,Tân Phú,Quận,1,Hồ Chí Minh,1,
+1762,24,Quận Thủ Đức,Thủ Đức,Quận,1,Hồ Chí Minh,1,
