@@ -178,11 +178,8 @@ def main():
     cnx.close()
         
 
-
-
 start_time = time.time()
-main()
-# get_wrong_address()
+# main()
 # a = addr_similar("Ecohome", "Ecohome Phúc Lợi")
 # print(a)
 elapsed_time = time.time() - start_time
