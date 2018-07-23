@@ -27,3 +27,41 @@ DELETE FROM `ghtk`.`address_service` WHERE `id`='2886';
 
 -- Thành lập thị xã giá rai từ huyện giá rai 2015
 UPDATE `ghtk`.`address_service` SET `prefix`='Thị xã' WHERE `id`='691';
+
+
+
+
+
+
+
+
+
+
+
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thành phố' WHERE `id`='699';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thành phố' WHERE `id`='690';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thành phố' WHERE `id`='659';
+UPDATE `dev_gearman`.`district` SET `_name`='Nà Hang' WHERE `id`='645';
+UPDATE `dev_gearman`.`district` SET `_name`='Mù Căng Chải' WHERE `id`='634';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thị xã' WHERE `id`='628';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thị xã' WHERE `id`='609';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thị xã' WHERE `id`='603';
+UPDATE `dev_gearman`.`district` SET `_name`='Cồn Cỏ' WHERE `id`='591';
+UPDATE `dev_gearman`.`district` SET `_name`='Đắk Hà' WHERE `id`='572';
+UPDATE `dev_gearman`.`district` SET `_name`='Đắk Tô' WHERE `id`='573';
+UPDATE `dev_gearman`.`district` SET `_name`='Kon Tum' WHERE `id`='577';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thị xã' WHERE `id`='566';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thành phố' WHERE `id`='555';
+UPDATE `dev_gearman`.`district` SET `_name`='Cao Lãnh' WHERE `id`='551';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thành phố' WHERE `id`='498';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Huyện' WHERE `id`='486';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thị xã' WHERE `id`='485';
+UPDATE `dev_gearman`.`district` SET `_name`='Si Ma Cai' WHERE `id`='434';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thành phố' WHERE `id`='423';
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thị xã' WHERE `id`='420';
+-- UPDATE `dev_gearman`.`district` SET `_prefix`='Thị xã' WHERE `id`='543';
+
+
+
+
+UPDATE `dev_gearman`.`district` SET `_prefix`='Thành phố' WHERE `id`='415';
