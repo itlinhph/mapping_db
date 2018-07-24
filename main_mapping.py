@@ -23,7 +23,7 @@ WRONG_ADDRESSES     = "data/wrong_addr.csv"
 TRUE_ADDRESSES      = "data/true_addr.csv"
 NOTSURE_ADDRESSES   = "data/notsure.csv"
 MAP_ALL_PROVINCE    = "data/province_name.csv"
-FILE_MAP_OUT        = "mapping_output.csv"
+FILE_MAP_OUT        = "mapping_as2407.csv"
 
 
 PATTERNS = {
@@ -54,17 +54,17 @@ def convert_non_accented(text):
 
     for key, value in PREFIX.items():
         output = output.replace(key, value)
-    for regex, replace in PATTERNS.items():
-        output = re.sub(regex, replace, output)
+    # for regex, replace in PATTERNS.items():
+    #     output = re.sub(regex, replace, output)
     return output
 
 def addr_similar(a, b):
-    a = convert_non_accented(a.lower())
+    a = convert_non_accented(a)
     a = " ".join(a.split())
-    b = convert_non_accented(b.lower())
+    b = convert_non_accented(b)
     b = " ".join(b.split())
-    print("String process: ", a,b)
     simillars = SequenceMatcher(None, a, b).ratio()
+    print("String process: ", a,b, simillars)
     return simillars
 
 def connect_db(cnx,config_db,  query):
@@ -102,9 +102,9 @@ def main():
         mapping_result.append(line)
 
     pairs = [l.split() for l in open(PAIR_PROVINCE).readlines()]
-    wrong_addrs = load_checked_data(WRONG_ADDRESSES)
-    true_addrs = load_checked_data(TRUE_ADDRESSES)
-    notsure_addrs = load_checked_data(NOTSURE_ADDRESSES)
+    # wrong_addrs = load_checked_data(WRONG_ADDRESSES)
+    # true_addrs = load_checked_data(TRUE_ADDRESSES)
+    # notsure_addrs = load_checked_data(NOTSURE_ADDRESSES)
     
     queue = deque(pairs)
     num_continue = 0
@@ -116,7 +116,7 @@ def main():
             SELECT ad.id, ad.name, ad.prefix, ad1.name as parent_name, ad.type  
             FROM ghtk.address_service ad 
             LEFT JOIN ghtk.address_service ad1 on ad.parent_id = ad1.id
-            WHERE ad.parent_id =""" + str(pair_address[1])  # BANG NAY CHUAN HON, 46767 ROWS
+            WHERE ad.parent_id =""" + str(pair_address[1])  # BANG NAY CHUAN HON, 46530 ROWS
         address_1 = connect_db(cnx, CONFIG_DB, query1)
         
         if not address_1:
@@ -124,51 +124,72 @@ def main():
             print("continue: ", num_continue)
             continue
         
-        # Address_id, address_name, address_type, address_parent
+        # Address_id, address_name, address_type, pid, address_parent
         query2 = """
-            SELECT ad.id, ad.name, ad.type, ad1.name as parent_name  
-            FROM ghtk.addresses_filter ad 
-            LEFT JOIN ghtk.addresses_filter ad1 on ad.parent_id = ad1.id
-            WHERE ad.parent_id =""" + str(pair_address[0])   # BANG NAY CUA GHTK, 23484 ROWS
+            SELECT ad.id, ad.name, ad.type, ad.parent_id, ad1.name as parent_name  
+            FROM ghtk.clone_addresses ad 
+            LEFT JOIN ghtk.clone_addresses ad1 on ad.parent_id = ad1.id
+            WHERE ad.parent_id =""" + str(pair_address[0])   # BANG NAY CUA GHTK, 16779 ROWS
         address_2 = connect_db(cnx,CONFIG_DB, query2)
         
+        b_mapped = []
+
         for add_1 in address_1:
-            temp_pairs = {}
+            as_id, as_name, as_prefix, as_pname, as_type = add_1
+            if(as_type ==7):
+                as_type_fix = 3
+            elif(as_type in (4,5,6)):
+                as_type_fix = 4
+            else:
+                as_type_fix = as_type
+            max_simmilar = 0
+            new_output = []
             for add_2 in address_2:
-                temp_wrong = [add_2[0], add_1[0]]
-                if (add_1[4] != add_2[2] ):
+                b_id, b_name, b_type, b_pid, b_pname = add_2
+                if(b_type ==7):
+                    b_type_fix = 3
+                elif(b_type in (4,5,6)):
+                    b_type_fix = 4
+                else:
+                    b_type_fix = b_type
+
+                if (as_type_fix != b_type_fix or max_simmilar==1):
                     continue
-                full_name = str(add_1[2])+ " " + add_1[1]
-                simillar = addr_similar(full_name, add_2[1])
-                if( simillar > 0.5):
-                    temp_pair = [add_2[0], add_1[0], add_2[1].rstrip(' \t\n\r'), add_1[1], add_2[2], add_1[2], add_2[3], add_1[3] ]
-                    temp_pairs[simillar] = temp_pair
-            if not temp_pairs:
-                continue
-            max_simillar = max(temp_pairs.keys())
-            new_pair = temp_pairs[max_simillar]
-            append_pair = [new_pair[0], new_pair[1] ]
-            if (append_pair in wrong_addrs):
-                print("wwwroooooonnnngggggg!!!!!!!!!")
-                continue
-            queue.append(append_pair)
-            if(addr_similar(new_pair[2], new_pair[3])==1):
-                new_pair.append("1")
-            else:
-                new_pair.append(round(max_simillar,3))
+                # print(add_1)
+                as_full_name = str(add_1[2]) + " " + add_1[1]
+                as_full_name = as_full_name.lower()
+                b_name_lower = b_name.lower()
+                if(as_full_name == b_name_lower):
+                    new_output = [b_id, as_id, b_name, as_name, as_prefix, b_type, b_pid, b_pname, as_pname, "1"]
+                    max_simmilar = 1
+                elif( as_name.lower() in b_name_lower and len(as_name) > 2 ):
+                    new_output = [b_id, as_id, b_name, as_name, as_prefix, b_type, b_pid, b_pname, as_pname, "Substring"]
+                    max_simmilar = 0.8
+                else:
+                    simillar = addr_similar(as_full_name, b_name_lower)
+                    if(simillar > max_simmilar):
+                        new_output = [b_id, as_id, b_name, as_name, as_prefix, b_type, b_pid, b_pname, as_pname, round(simillar,3)]
+                        max_simmilar = simillar
             
-            if(append_pair in true_addrs):
-                new_pair.append("1")
-            elif(append_pair in notsure_addrs):
-                new_pair.append("NOT SURE")
+            if(max_simmilar >0.7):
+                mapping_result.append(new_output)
+                queue.append( [new_output[0], new_output[1]] )
+                b_mapped.append((new_output[0], new_output[2], new_output[5],new_output[6], new_output[7]))
+                print("new: ", new_output)
+                num_continue = 0
             else:
-                new_pair.append("")
+                as_alone = ["", as_id, "", as_name, as_prefix, as_type, "", "", as_pname, ""]
+                mapping_result.append(as_alone)
+        
+        # print(address_2)
+        # print(b_mapped)
+        for item in address_2:
+            if item not in b_mapped:
+                b_alone = [item[0], "", item[1], "", "", item[2], item[3], item[4], "", ""]
+                mapping_result.append(b_alone)
+        mapping_result.append(["---","---","---","---","---","---","---","---","---","---"])
+      
 
-
-            mapping_result.append(new_pair)
-            num_continue = 0
-            print("new pair:", new_pair)
-    
     print("Total: ", len(mapping_result))
     with open(FILE_MAP_OUT, 'w') as csvFile:
         writer = csv.writer(csvFile)
@@ -179,7 +200,7 @@ def main():
         
 
 start_time = time.time()
-# main()
+main()
 # a = addr_similar("Ecohome", "Ecohome Phúc Lợi")
 # print(a)
 elapsed_time = time.time() - start_time
