@@ -75,16 +75,6 @@ def connect_db(cnx,config_db,  query):
     
     return result
 
-def get_wrong_address():
-    full_address = [line.rstrip('\n') for line in open('data/add_full.csv')]
-    filter_address = [line.rstrip('\n') for line in open('data/add_filter.csv')]
-    # print(filter_address)
-    print(type(full_address), type(filter_address))
-    wrong_addr = list(set(full_address) - set(filter_address))
-    print(wrong_addr)
-    with open('wrong_addr.csv', 'w') as filehandle:
-        for listitem in wrong_addr:
-            filehandle.write('%s\n' % listitem)
 
 def load_checked_data(file_name):
     list_pairs = []
