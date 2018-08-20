@@ -166,9 +166,9 @@ def main():
 
 
 start_time = time.time()
-# main()
+main()
 # get_wrong_address()
-a = addr_similar("Phường", "Phường")
+# a = addr_similar("Phường", "Phường")
 print(a)
 elapsed_time = time.time() - start_time
 print("\n------ Elapsed time: " + str(round(elapsed_time, 3)) + "s ------")

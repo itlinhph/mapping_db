@@ -36,3 +36,6 @@ print(a)
 #define URBAN_TYPE 5
 #define OTHER_TYPE 6
 #define HUYEN_TYPE 7 //huyện, thị xã
+
+
+DELETE FROM `dev_gearman`.`address_service` WHERE `id`='51089';
